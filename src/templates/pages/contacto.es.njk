@@ -1,0 +1,143 @@
+{#-
+  Page template: contacto (es).
+  Markup reproduces the original WordPress/Essential Blocks output (CSS classes are
+  needed by src/css/pages/contacto.*.css). All content comes from data/<lang>/pages/contacto.json -> "content" (c).
+-#}
+{% extends "layouts/base.njk" %}
+{% set c = page.content %}
+{% block content %}
+<div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-qrr82t6">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-qrr82t6 ">
+    <div class="eb-wrapper-outer eb-wrapper-qrr82t6">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          <div class="wp-block-essential-blocks-row alignfull  root-eb-row-e0wd3lk">
+            <div class="eb-parent-wrapper eb-parent-eb-row-e0wd3lk ">
+              <div class="eb-row-root-container eb-row-e0wd3lk" data-id="eb-row-e0wd3lk">
+                <div class="eb-row-wrapper">
+                  <div class="eb-row-inner">
+                    <div class="wp-block-essential-blocks-column  root-eb-column-ph638ml">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-ph638ml ">
+                        <div class="eb-column-wrapper eb-column-ph638ml">
+                          <div class="eb-column-inner">
+                            <div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-vha4zvk">
+                              <div class="eb-parent-wrapper eb-parent-eb-advance-heading-vha4zvk ">
+                                <div class="eb-advance-heading-wrapper eb-advance-heading-vha4zvk button-1" data-id="eb-advance-heading-vha4zvk"><h2 class="eb-ah-title">{{ c.heading.title | safe }}</h2>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wp-block-essential-blocks-column  root-eb-column-rl5043u">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-rl5043u ">
+                        <div class="eb-column-wrapper eb-column-rl5043u">
+                          <div class="eb-column-inner">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-d59ipce">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-d59ipce ">
+    <div class="eb-wrapper-outer eb-wrapper-d59ipce">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          <div class="wp-block-essential-blocks-row alignfull  root-eb-row-rpqk2l6">
+            <div class="eb-parent-wrapper eb-parent-eb-row-rpqk2l6 ">
+              <div class="eb-row-root-container eb-row-rpqk2l6" data-id="eb-row-rpqk2l6">
+                <div class="eb-row-wrapper">
+                  <div class="eb-row-inner">
+                    <div class="wp-block-essential-blocks-column  root-eb-column-errvxes">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-errvxes ">
+                        <div class="eb-column-wrapper eb-column-errvxes">
+                          <div class="eb-column-inner">
+                            {{ c.directions.body | safe }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wp-block-essential-blocks-column  root-eb-column-e2crb4d">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-e2crb4d ">
+                        <div class="eb-column-wrapper eb-column-e2crb4d">
+                          <div class="eb-column-inner">
+                            <div class="wp-block-essential-blocks-advanced-image  root-eb-advanced-image-fbf4tyf">
+                              <div class="eb-parent-wrapper eb-parent-eb-advanced-image-fbf4tyf ">
+                                <figure class="eb-advanced-image-wrapper eb-advanced-image-fbf4tyf img-style-rounded caption-style-1 caption-horizontal-center caption-vertical-bottom bottom no-effect" data-id="eb-advanced-image-fbf4tyf">
+                                <div class="image-wrapper"><img decoding="async" src="{{ c.directions.image }}" alt="{{ c.directions.imageAlt }}">
+                                </div>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wp-block-essential-blocks-row alignfull  root-eb-row-hq66dto">
+            <div class="eb-parent-wrapper eb-parent-eb-row-hq66dto ">
+              <div class="eb-row-root-container eb-row-hq66dto" data-id="eb-row-hq66dto">
+                <div class="eb-row-wrapper">
+                  <div class="eb-row-inner">
+                    <div class="wp-block-essential-blocks-column  root-eb-column-yhc4ygd">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-yhc4ygd ">
+                        <div class="eb-column-wrapper eb-column-yhc4ygd">
+                          <div class="eb-column-inner">
+                            {{ c.contacts[0].body | safe }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wp-block-essential-blocks-column  root-eb-column-ruwmu50">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-ruwmu50 ">
+                        <div class="eb-column-wrapper eb-column-ruwmu50">
+                          <div class="eb-column-inner">
+                            {{ c.contacts[1].body | safe }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wp-block-essential-blocks-column  root-eb-column-8sybpkx">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-8sybpkx ">
+                        <div class="eb-column-wrapper eb-column-8sybpkx">
+                          <div class="eb-column-inner">
+                            {{ c.contacts[2].body | safe }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wp-block-essential-blocks-column  root-eb-column-n0a2m87">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-n0a2m87 ">
+                        <div class="eb-column-wrapper eb-column-n0a2m87">
+                          <div class="eb-column-inner">
+                            {{ c.contacts[3].body | safe }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p></p>
+{% endblock %}

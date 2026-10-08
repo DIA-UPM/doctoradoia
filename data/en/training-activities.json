@@ -1,0 +1,673 @@
+{
+  "description": "Training activities of the programme (Training page). Each activity is shown in a numbered tab, in this order.",
+  "activities": [
+    {
+      "slug": "research-methodology",
+      "title": "Research Methodology",
+      "tableId": 11,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (seminar)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 10 hrs",
+            "Independent work: 38 hrs",
+            "Mentoring: 6 hrs"
+          ]
+        },
+        {
+          "label": "Justification",
+          "values": [
+            "The aim of this activity is to train students to conduct scientific research works in the field of Artificial Intelligence."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The seminar consists of on-site sessions about research methodology."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "A seminar conducted during the first steps of the PhD research."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CB12, CB13, CB14, CB15, CB16, CA06, OC1, OC2"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            "<strong>This seminar is compulsory for all students. It is recommended to attend it during the first year.</strong>"
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students must hand in an essay on one of the five topics dealt with in the seminar, this will be evaluated.",
+            "Students have to involve themselves actively in the seminar and conduct oral presentations on the topics dealt with.",
+            "The professor’s mark comes from the interactions with each student, the evaluated essay and the presentation delivered."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "phd-symposium",
+      "title": "PhD Symposium",
+      "tableId": 12,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (symposium)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 6 hrs",
+            "Independent work: 14 hrs",
+            "Mentoring: 2 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students to present their scientific work in its current stage at the moment in which the symposium is conducted."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The UPM Doctoral Symposium is a training activity organised by the International Doctoral School. It is conceived as a training activity for all UPM doctoral students. In addition to the educational objective of learning how to speak in public, this activity aims to promote interdisciplinary collaboration between the different researchers and research groups at the UPM."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted as an annual symposium, so that any student may attend, if he/she wishes, several editions, at different stages of his/her research (at least two editions are obligatory, being at least one as presenter)."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CB13, CB15, OC1"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            "Every student of the programme will have to take part in two symposiums."
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "The International Doctoral School will issue certificates of attendance to each participating doctoral student. It will be necessary for each doctoral student to send these certificates to the CAPD for each edition of the Symposium in which he/she participates."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "research-workshops-how-to-write-an-article-and-how-to-delive",
+      "title": "Research workshops: how to write an article and how to deliver a presentation",
+      "tableId": 13,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (workshop)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 6 hrs",
+            "Independent work: 14 hrs",
+            "Mentoring: 2 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students to write and present their scientific work in scientific forums."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The workshop consists of teachers from the programme explaining techniques to write and to present scientific articles."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted every year, without restraints so that students can attend. It is recommended to attend it during the first year."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CB13, CB15, OC1"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students write a short article in English (around 6 pages) related to the works included in their Thesis and present it in 5 minutes. <br>\nThe professor’s mark comes from interactions with each student during the workshop development, the article that is handed in and the presentation delivered."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "research-workshops-usage-of-scientific-data-bases-and-biblio",
+      "title": "Research workshops: usage of scientific data bases and bibliometrics",
+      "tableId": 14,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (workshop)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 3 hrs",
+            "Independent work: 7 hrs",
+            "Mentoring: 1 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students to use data bases of scientific articles as well as other similar repositories and to understand the basic aspects of bibliometrics (quotes, etc.)"
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The workshop consists of explaining techniques to access and analyse works in scientific data bases and also workshopping a concrete example."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted every year, without restraints so that students can attend. It is recommended to attend it during the first year."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CA05, CA06, CB11, CB14, OC1"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students conducts specific research works, reading of articles and bibliometric analyses, each one on the topic of their PhD Thesis. They hand in a document to the teacher in which the analysis conducted is explained and the results are explored in class. <br>\n<br>\nThe professor’s mark comes from interactions with each student during the workshop development, the article that is handed in and the presentation delivered."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "research-workshops-experiment-design",
+      "title": "Research workshops: experiment design",
+      "tableId": 15,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (workshop)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 6 hrs",
+            "Independent work: 14 hrs",
+            "Mentoring: 2 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students to  design scientific experiments in a systematic and appropriate way regarding ther area of work"
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The workshop consists of a presentation of techniques for the design of scientific experiments, and work in workshop mode on a concrete example."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted every year, without restraints so that students can attend. It is recommended to attend it during the first year."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CB12, CB13, CB14, OC1"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students elaborate the design of an experiment, each one on the topic of their PhD Thesis. They hand in a document to the teacher in which the design of the experiment is explained and the results are discussed in class. <br>\nThe professor´s mark comes from interactions with each student during the workshop development, the article that is handed in and the presentation delivered."
+          ]
+        },
+        {
+          "label": "",
+          "values": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "research-workshops-how-to-create-a-poster",
+      "title": "Research workshops: How to create a poster?",
+      "tableId": 16,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (workshop)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 3 hrs",
+            "Independent work: 7 hrs",
+            "Mentoring: 1 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this subject is to train the students to create a poster that allows them to present their work in a scientific forum."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The workshop consists in explaining techniques to design posters and in completing a seminar on a concrete example."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted every year, without restraints so that students can attend. It is recommended to be attended during the first or second year."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CA04, CB15, CA06, OC1"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students create a poster, each one on the topic of their PhD Thesis. They hand the poster to the professor and present it in two minutes.<br>\nThe professor´s mark comes from interactions with each student during the seminar development, the poster handed in and the presentation delivered."
+          ]
+        },
+        {
+          "label": "",
+          "values": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "research-workshops-managing-research-projects",
+      "title": "Research workshops: managing research projects",
+      "tableId": 17,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (workshop)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 6 hrs",
+            "Independent work: 14 hrs",
+            "Mentoring: 2 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students in the management of RDI projects, including the identification of opportunities, elaboration of application memories, coordination and managing."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The workshop consists of explaining techniques to identify project opportunities, to elaborate research project memories and to coordinate and manage projects. Concrete and real examples of research projects are presented and the different problems that may appear during the execution and the report of a project are discussed."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted every year, without restraints so that students can attend.  It is recommended to attend it during the third year."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CA02, CA03, CA04, CA06, CB15, CB16, OC2"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students conduct the definition of a research project in groups or the definition of a research proposal for their postdoctoral period individually. The proposal has to clearly identify the programme that it represents, the state of the art, research project, time planning of the proposed research and quantification of the human, material and economic resources for its execution. The work is presented in class during 10 minutes.<br>\n<br>\nThe professor´s mark comes from interactions with each student during the workshop development, the article handed in and the presentation delivered."
+          ]
+        },
+        {
+          "label": "",
+          "values": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "research-workshops-protection-of-scientific-results-and-tech",
+      "title": "Research workshops: protection of scientific results and Technology Transfer",
+      "tableId": 18,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (workshop)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 6 hrs",
+            "Independent work: 14 hrs",
+            "Mentoring: 2 hrs"
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students to protect research results and to conduct technology transfer actions."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The workshop consists of a explaning techniques to protect research results and to conduct technology transfer contracts. Concrete and real examples of the protection of results extracted from research activities and from technology transfer are presented."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "It is conducted every year, without restraints so that students can attend.  It is recommended to attend it during the third year."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CA01, CA02, CA04, CA06, CB15, CB16, OC2"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students conduct individually the identification of results of their Phd Thesis, analysing wich results are suscceptible to be protected ans/or transfered. An example of software registration or patent is conducted (as appropiate). The work is presented in class during 5 minutes.<br>\n<br>\nThe professor´s mark comes from interactions with each student during the workshop development, the article handed in and the presentation delivered."
+          ]
+        },
+        {
+          "label": "",
+          "values": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mobility",
+      "title": "Mobility",
+      "tableId": 19,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (mobility)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 0 hrs",
+            "Independent work: 400 hrs",
+            "Mentoring: 12 hrs. <br>\nThe training activity is difficult to quantify, although the numbers indicated are the minimum."
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this activity is to train students to cope with scientific and academic environments, as well as to communicate with the academic and scientific community about its areas of expertise."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "The Academic Commission of the PhD Programme recommends and encourages doctoral students to spend a period of, at least, three months abroad to promote the International Mention of the defended PhD Thesis of the Programme.  <br>\n<br>\nIt is recommended that the periods in Foreign Centres (preferably) or National Centres of renowned prestige always last, al least, more than a month. <br>\n<br>\nStudents, guided by their Thesis supervisor, identify mobility activities that best suit their needs regarding the progress achieved in the Thesis.<br>\n<br>\nIt is evident that those part-time students have less possibilities to realize the mobility due to the harmonization of professional activities with the PhD. For these students, the PhD Programme accepts those stays in laboratories and research departments of enterprises that can be conducted or that have been conducted during the three years before their registration in the PhD Programme.<br>\n<br>\nStays less than one month are also taken into account in order to be able to add shorter duration stays to them."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "This activity starts at least six month after students have defined the topic of their research."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CA03, CA04, CA06, CB15, CB16"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "English or any other language depending on the country that hots the students."
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            "The Politecnique University of Madrid, through the Vice Chancellor of International Relations, keeps a permanent data system on the  <a href=\"http://www.upm.es/institucional/Estudiantes/Movilidad/Programas_Internacionales\" target=\"_blank\">institutional website<br>\n</a> <br>\nLikewise, the School of Computer Engineering has an External Relations Office (OREX) which has, among other things, a mobility area for relations with universities or national and international institutions, for the development of mobility and exchanges for academic purposes for the students of the centre. <br>\n<br>\nThe Academic Commission of the PhD Progamme in Artificial Intelligence commits to take part in open calls to help students with mobility, offering in many cases, an additional or alternative way, the possibility to conduct the mobility by means of the funding associated with research projects in which the research groups of the teaching and research staff of the Programme take part and within the framework of the relations these have with other foreign research groups."
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Report of the host institution and of the researcher in charge.<br>\n<br>\nThe individual report from the student specifying the activities carried out in the framework of the stay, degree of adaptation of the activity to the doctoral programme and level of satisfaction.<br>\n<br>\nThe thesis supervisor periodically meats via Skype during the whole period of their stay. The thesis supervisor completes a report at the end of the stay.<br>\n<br>\nPart-time students who present stays in laboratories and research departments of companies must submit a report from their supervisor detailing the purpose of the stay and the actions carried out."
+          ]
+        },
+        {
+          "label": "",
+          "values": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "other-training-activities-in-wich-students-have-to-move",
+      "title": "Other training activities in wich students have to move",
+      "tableId": 20,
+      "details": [
+        {
+          "label": "Type",
+          "values": [
+            "Activity of cross-disciplinary training (mobility)"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Onsite: 0 hrs",
+            "Independent work: 100 hrs",
+            "Mentoring: 5 hrs. <br>\nThe training activity is difficult to quantify, although the numbers indicated are the minimum."
+          ]
+        },
+        {
+          "label": "Justificatlon",
+          "values": [
+            "The aim of this subject is to train the students to create a poster that allows them to present their work in a scientific forum."
+          ]
+        },
+        {
+          "label": "Description of contents",
+          "values": [
+            "Students, guided by their Thesis supervisor, identify mobility activities that best suit their needs regarding the progress achieved in the PhD Thesis. <br>\n<br>\n1. Other stays of less than a month. <br>\n<br>\n2. Attendance to seminars, conferences, lessons and workshops at a national and international (preferably) level. <br>\n<br>\n3. Attendance to Tutorials of international conferences and to summer schools. <br>\n<br>\n4. Attendance to meetings about research projects."
+          ]
+        },
+        {
+          "label": "Time planning",
+          "values": [
+            "This activity starts at least six months after students have defined the topic of their research."
+          ]
+        },
+        {
+          "label": "Learning results",
+          "values": [
+            "The aim is to achieve the following competences: CA03, CA04, CA06, CB15, CB16"
+          ]
+        },
+        {
+          "label": "Language",
+          "values": [
+            "Inglés o cualquier idioma dependiendo del país que acoja al estudiante"
+          ]
+        },
+        {
+          "label": "Other clarifications",
+          "values": [
+            "The research groups taking part in the PhD Programme play a key role in other activities of mobility. The professors of the groups collaborate with other research groups in other prestigious national and/or international gentres, which has led to participation in joint projects, apart from in joint publications, and to conduct teaching stays and student reception. <br>\n<br>\nThe (national, international and private) projects associated with the groups allow doctoral students to attend conferences, lessons, workshops and summer schools as well as to interact with other researchers in meetings about projects. <br>\n<br>\nThere are many students from the PhD Programme that take part in these groups thanks to fellowships associated with the national and international research projects."
+          ]
+        },
+        {
+          "label": "Evaluation procedure",
+          "values": [
+            "Students have to submit a supporting document of the attendance to the conducted activity as well as a description about the activity conducted and its adequacy to the PhD Thesis that is being developed: certificate of attendance and a report in the case of congress, certificate of attendance and aptitude from the summer school, workshop, etc. <br>\n<br>\nIn addition, in the case of short stays, a report from the researcher in charge at the host institution is required."
+          ]
+        },
+        {
+          "label": "",
+          "values": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

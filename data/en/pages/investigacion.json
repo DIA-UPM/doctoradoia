@@ -1,0 +1,22 @@
+{
+  "path": "/language/en/groups-and-lines-of-research/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/groups-and-lines-of-research/",
+  "wordpressId": 79,
+  "meta": {
+    "title": "Groups and Lines of Research - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:57:31+00:00",
+    "modified": "2026-02-27T09:29:51+00:00",
+    "breadcrumb": "Groups and Lines of Research"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": "Advanced research in AI"
+      },
+      "title": "Groups and lines of research",
+      "subtitle": "The program unfolds across five research lines/teams, which are described as follows:"
+    }
+  }
+}

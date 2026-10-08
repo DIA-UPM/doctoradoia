@@ -1,0 +1,81 @@
+{
+  "path": "/language/en/entry-requirements/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/entry-requirements/",
+  "wordpressId": 72,
+  "meta": {
+    "title": "Entry requirements - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:56:41+00:00",
+    "modified": "2026-02-27T08:55:22+00:00",
+    "breadcrumb": "Entry requirements"
+  },
+  "content": {
+    "hero": {
+      "title": "Welcome the research talent",
+      "subtitle": "Entry requirements",
+      "intro": {
+        "body": "<p class=\"has-white-color has-text-color\" style=\"padding-top:0;padding-bottom:0\">To access the PhD programme it is necessary:</p>"
+      }
+    },
+    "steps": [
+      {
+        "title": "Meet access requirements",
+        "subtitle": "",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-size:13px;line-height:1.3\">Access requirements can be found at this <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Admision/Requisitos%20acceso%20al%20doctorado%20RD992011.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">link</a>.  More information about the pre-enrolment periods for the UPM PhD Programmes can be found<strong> </strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">here</a></p>"
+      },
+      {
+        "title": "Preregistration",
+        "subtitle": "Online pre-registration",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Pre-register via the <a href=\"http://upm.es/helios\" target=\"_blank\" rel=\"noreferrer noopener\">HELIOS</a> system. Applicant students will submit, through the platform, all the information required to assess whether they meet the <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Admision/Requisitos%20acceso%20al%20doctorado%20RD992011.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">access conditions</a>.</p>"
+      },
+      {
+        "title": "Access",
+        "subtitle": "Evaluation of compliance with requirements",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">After pre-registration, an assessment is made of the fulfilment of the entry requirements</p>"
+      },
+      {
+        "title": "Admission",
+        "subtitle": "Verified that the criteria are met",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Once the criteria to access and the general conditions to be accepted at the UPM are verified, the <a href=\"https://dia.fi.upm.es/doctoradoia/?q=en/node/239\" target=\"_blank\" rel=\"noreferrer noopener\">Academic Commission of the PhD Programme</a> is in charge of the selection.</p>"
+      },
+      {
+        "title": "Registration",
+        "subtitle": "Admitted students can register",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">The students accepted can find the steps of the process of registration on the following<strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\"> link to the UPM website</a></strong></p>"
+      }
+    ],
+    "details": {
+      "tabs": [
+        "Recommended <br>applicant’s profile?",
+        "Pre-registration",
+        "Access",
+        "Admission and training complements",
+        "Registration"
+      ],
+      "panels": [
+        {
+          "body": "<p>In the following table, there is a brief description of the capacities, the previous knowledge, the languages that will be used in the training process as well as the level required of them, etc. that, in general, are considered appropriate for those who want to study a PhD Programme:</p>",
+          "capacities": {
+            "body": "<h5 class=\"wp-block-heading has-ast-global-color-2-color has-text-color has-link-color wp-elements-3f80c30b47f8549df1b0a448304eadef\" style=\"padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)\">Skills</h5>\n<ul class=\"wp-block-list\">\n<li>Reading and comprehension abilities</li>\n<li>Good oral and written communication skills</li>\n<li>Interest in research in the field of Artificial Intelligence</li>\n<li>Creative and analytical abilities to find solutions to concrete problems</li>\n<li>Observation skills</li>\n<li>Initiative and willingness to work in teams</li>\n</ul>"
+          },
+          "priorKnowledge": {
+            "body": "<h5 class=\"wp-block-heading has-ast-global-color-2-color has-text-color has-link-color wp-elements-3459751f3e7fd8acba4399ef5eece1de\" style=\"padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)\">Previous Knowledge</h5>\n<ul class=\"wp-block-list\">\n<li>Completion of a master’s program, bachelor’s degree, engineering degree, or any degree related to the field of Information and Communication Technologies</li>\n<li>Completion of a bachelor’s degree in Mathematics, Physics, or any specialty related to Computing</li>\n<li>Proficiency in English equivalent to a B2 level, as it will be the language used in the training process</li>\n</ul>"
+          }
+        },
+        {
+          "body": "<p>To access the Doctoral Programme you need to</p>\n<ul class=\"wp-block-list\">\n<li>meet <a href=\"https://www.upm.es/gsfs/SFS07902\">access requirement<strong>s </strong></a></li>\n<li>and pre-register via the <a href=\"https://www.upm.es/tramites/\">UPM procedures portal</a></li>\n</ul>\n<p>Pre-registration for the programme should be done <a data-type=\"link\" data-id=\"https://www.upm.es/helios/?idioma=E\" href=\"https://www.upm.es/helios/?idioma=E\" target=\"_blank\" rel=\"noreferrer noopener\">online</a>. Applicant students will submit, through the <a href=\"https://www.upm.es/tramites/\">UPM procedures portal</a>, all the information required to assess whether they meet the access requirements and admission criteria.</p>\n<p>More information about the pre-enrolment periods for the UPM Doctoral Programmes can be found<strong> </strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">here</a>.</p>"
+        },
+        {
+          "body": "<p>After pre-registration, an assessment of the fulfilment of the access requirements is carried out. You can see what these requirements are at this <a href=\"https://www.upm.es/gsfs/SFS07902\" target=\"_blank\" rel=\"noreferrer noopener\">link</a>.</p>"
+        },
+        {
+          "body": "<p>Once the criteria to access and the general conditions to be accepted at the UPM are verified, the <a href=\"https://dia.fi.upm.es/doctoradoia/?q=en/node/239\" target=\"_blank\" rel=\"noreferrer noopener\">Academic Commission of the PhD Programme</a> is in charge of the selection.</p>\n<p>The following section shows the <strong>selection criteria together with the corresponding evaluation</strong>, based on a system in which 100 points is the maximum, approved in the 64th CAPDIA (the third of Feabruary, 2020):</p>\n<p>a) Academic performance (up to 40 points).</p>\n<ul class=\"wp-block-list\">\n<li>For those students coming from the University Master’s Programme in Artificial Intelligence at the Polytechnique University of Madrid, the academic performance evaluated will be that of the student during the aforementioned period.</li>\n<li>For those students who do not come from the previously mentioned master’s programme, the academic training and the academic transcript, especially those degrees with competences and knowledge related to the areas of expertise of the PhD Programme, will be evaluated.</li>\n</ul>\n<p>b) Professional and research experience (up to 30 points).</p>\n<p>Relevant experience:</p>\n<ul class=\"wp-block-list\">\n<li>Collaboration with a national or international research group related to the areas of expertise of the PhD Programme.</li>\n<li>Realisation of researching activities and innovation in an RDI department from an enterprise.</li>\n<li>Publications included in JCR and national and international conferences with peer reviewers.</li>\n<li>Stays in foreign centres.</li>\n<li>Involvement in research projects.</li>\n</ul>\n<p>c)  Letter of recommendation from member of the Academic Committee of the Program (up to 30 points).</p>\n<p>Other relevant points, among other aspects:</p>\n<ul class=\"wp-block-list\">\n<li>Personal interest of students.</li>\n<li>Their professional career.</li>\n<li>Relevance of their interests to the Programme.</li>\n<li>Their willingness to work individually.</li>\n<li>Their willingness to work in groups.</li>\n<li>Their interest in the field of research.</li>\n</ul>\n<p>Once selected, the acceptance of students must adhere to the established quota. </p>\n<p><strong>New places offered each academic year: 15</strong></p>\n<p>Furthermore, the <strong>acceptance includes the following specific determinants</strong>  of the Programme and is conducted in the following order of priority:</p>\n<p><strong>1.</strong> Students coming from the Master’s Programme.</p>\n<ul class=\"wp-block-list\">\n<li><strong>1.1.</strong> If the students come from a master’s programme related to the areas of knowledge of <em>Artificial Intelligence</em> or <em>Computer Science and Artificial Intelligence,</em> they are automatically accepted.</li>\n<li><strong>1.2.</strong> If the students do not meet this requirement, but they have completed an engineering degree or a master’s programme including at least 15 ECTS in any of the areas of <em>Artificial Intelligence</em>, they will be accepted only if they complete, as training complement, 10 ECTS from the Subjects and Seminars offered on the <em>University Master’s Programme in Artificial Intelligence at the Polytechnique University of Madrid</em>.</li>\n<li><strong>1.3.</strong> If the students do not meet the specific requirements from the previous sections (1.1 and 1.2), but they have completed a master’s programme in other fields of Computing, Telecommunications and Mathematics, they will be accepted only if they complete, as training complement, 20 ECTS from the Subjects and Seminars offered on the <em>University Master’s Programme in Artificial Intelligence at the Polytechnique University of Madrid</em>.</li>\n<li><strong>1.4.</strong> If the students do not meet the specific requirements from the previous sections (1.1, 1.2 and 1.3), but they have completed a master’s programme, they will be accepted only if they complete, as training complement, 30 ECTS from the Subjects and Seminars offered on the <em>University Master’s Programme in Artificial Intelligence at the Polytechnique University of Madrid</em>.</li>\n</ul>\n<p><strong>2.</strong> Students who have completed a PhD. Their admission depends on the same type of training complements applied to students coming from a master’s programme.</p>\n<p><strong>3.</strong> Students coming from an Undergraduate Degree Programme. The Programme Committee recommends that these students enrol in the University Master’s Programme in Artificial Intelligence at the Polytechnique University of Madrid before enrolling in the PhD Programme. Nevertheless, if the Committe decides to accept them:</p>\n<ul class=\"wp-block-list\">\n<li><strong>3.1.</strong> The students coming from an undergraduate degree programme are accepted only if they complete, as a training complement, 40 ECTS from the Subjects and Seminars offered on the <em>University Master’s Programme in Artificial Intelligence at the Polytechnique University of Madrid</em>.</li>\n<li><strong>3.2.</strong> If the students are in the situation mentioned in the article 6.1.b of the Royal Decree 99/2011 (those that have completed a Spanish degree of, at least, 300 ECTS and that have not completed any research ECTS equivalent in educational value to research ECTS coming from the Master’s programme), they are accepted only if they complete the training complements required.</li>\n</ul>\n<p>In case of being accepted, the students can find the <a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">registration procedure</a> on the UPM website.</p>\n<p>The applicants that have not been accepted can lodge a complaint within the period and in the way established for each application. Once the period for complaints is over and once they have been resolved, the accepted students ratio will be referred to the correspondant management of student bodies in order for them to be able to formalise their registration in the period indicated. If the applicants do not formalise their registration, they decline their rights.</p>"
+        },
+        {
+          "body": "<p>The students accepted can find the steps of the <a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">process of registration</a> on the following link  to the UPM website.</p>"
+        }
+      ]
+    }
+  }
+}

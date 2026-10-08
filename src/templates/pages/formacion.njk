@@ -1,0 +1,84 @@
+{#-
+  Page template: formacion.
+  Markup reproduces the original WordPress/Essential Blocks output (CSS classes are
+  needed by src/css/pages/formacion.*.css). All content comes from data/<lang>/pages/formacion.json -> "content" (c).
+-#}
+{% extends "layouts/base.njk" %}
+{% set c = page.content %}
+{% block content %}
+<div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-bkjbhue">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-bkjbhue ">
+    <div class="eb-wrapper-outer eb-wrapper-bkjbhue">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          <div class="wp-block-essential-blocks-row alignfull  root-eb-row-vtu3fju">
+            <div class="eb-parent-wrapper eb-parent-eb-row-vtu3fju ">
+              <div class="eb-row-root-container eb-row-vtu3fju" data-id="eb-row-vtu3fju">
+                <div class="eb-row-wrapper">
+                  <div class="eb-row-inner">
+                    <div class="wp-block-essential-blocks-column  root-eb-column-d5w5602">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-d5w5602 ">
+                        <div class="eb-column-wrapper eb-column-d5w5602">
+                          <div class="eb-column-inner">
+                            <div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-phz4e97">
+                              <div class="eb-parent-wrapper eb-parent-eb-advance-heading-phz4e97 eb_animation eb___animated eb___fadeIn">
+                                <div class="eb-advance-heading-wrapper eb-advance-heading-phz4e97 button-1" data-id="eb-advance-heading-phz4e97"><h1 class="eb-ah-title">{{ c.hero.title | safe }}</h1>
+                                  <p class="eb-ah-subtitle">{{ c.hero.subtitle | safe }}</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="wp-block-essential-blocks-row alignfull  root-eb-row-xx329w8">
+                              <div class="eb-parent-wrapper eb-parent-eb-row-xx329w8 ">
+                                <div class="eb-row-root-container eb-row-xx329w8" data-id="eb-row-xx329w8">
+                                  <div class="eb-row-wrapper">
+                                    <div class="eb-row-inner">
+                                      <div class="wp-block-essential-blocks-column  root-eb-column-gax4bs3">
+                                        <div class="eb-parent-wrapper eb-parent-eb-column-gax4bs3 ">
+                                        <div class="eb-column-wrapper eb-column-gax4bs3">
+                                        <div class="eb-column-inner">
+                                        {{ c.intro.body | safe }}
+                                        </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wp-block-essential-blocks-advanced-tabs alignfull  root-eb-advanced-tabs-zl6mp0a">
+            <div class="eb-parent-wrapper eb-parent-eb-advanced-tabs-zl6mp0a ">
+              <div class="eb-advanced-tabs-zl6mp0a eb-advanced-tabs-wrapper horizontal" data-min-height="true">
+                <div class="eb-tabs-nav">
+                  {#- one numbered tab per training activity (data/<lang>/training-activities.json) -#}
+                  <ul class="tabTitles" data-tabs-ul-id="eb-advanced-tabs-zl6mp0a">{% for a in collections['training-activities'].activities %}<li data-title-tab-id="{{ loop.index }}"{% if loop.first %} data-title-custom-id=""{% endif %} class="{{ 'active' if loop.first else 'inactive' }}"><h6 class="tab-title-text">{{ loop.index }}</h6></li>{% endfor %}
+                  </ul>
+                </div>
+                <div class="eb-tabs-contents">
+                  {% for a in collections['training-activities'].activities %}
+                  <div class="eb-tab-wrapper" data-tab-id="{{ loop.index }}" data-tab-parent-id="eb-advanced-tabs-zl6mp0a">
+                    <div class="eb-tab-inner">
+                      {% include "components/training-activity-table.njk" %}
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% include "components/training-schedule.njk" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

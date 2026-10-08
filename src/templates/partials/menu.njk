@@ -1,0 +1,42 @@
+{#-
+  Main menu, rendered from data/navigation.json (see scripts/build/navigation.mjs for
+  how CSS classes / current-page state are computed).
+  variant: "header" (first desktop menu, keeps the li ids), "plain" (sticky header and
+  off-canvas popup menus) or "footer" (footer widget menu, text links only).
+-#}
+
+{% macro mainMenu(menu, variant) -%}
+{%- from "partials/icons.njk" import arrow -%}
+{%- for item in menu.items -%}
+<li{% if variant == 'header' %} id="menu-item-{{ item.id }}"{% endif %} class="{{ item.classes }}">
+{%- if variant == 'footer' -%}
+<a{% if item.children %} aria-expanded="false"{% endif %} href="{{ item.href }}"{% if item.current %} aria-current="page"{% endif %} class="menu-link">{{ item.label }}</a>
+{%- if item.children %}
+<ul class="sub-menu">
+{% for child in item.children -%}
+<li class="{{ child.classes }}"><a href="{{ child.href }}"{% if child.current %} aria-current="page"{% endif %} class="menu-link">{{ child.label }}</a></li>
+{% endfor -%}
+</ul>
+{% endif -%}
+{%- else -%}
+<a{% if item.children %} aria-expanded="false"{% endif %} href="{{ item.href }}" class="menu-link">{{ arrow() }}<span class="menu-text">{{ item.label }}</span>
+{%- if item.children %}<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="{{ menu.submenuToggleLabel }}"  >{{ arrow() }}</span>{% endif -%}
+</a>
+{%- if item.children -%}
+<button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">{{ menu.submenuButtonLabel }}</span>{{ arrow() }}</button>
+<ul class="sub-menu">
+{% for child in item.children -%}
+<li{% if variant == 'header' %} id="menu-item-{{ child.id }}"{% endif %} class="{{ child.classes }}"><a href="{{ child.href }}" class="menu-link">{{ arrow() }}<span class="menu-text">{{ child.label }}</span></a></li>{% if not loop.last %}	{% endif %}
+{%- endfor -%}
+</ul>
+{% endif -%}
+{%- endif -%}
+</li>
+{%- endfor -%}
+{%- set sw = menu.switcher -%}
+<li{% if variant == 'header' %} id="menu-item-{{ sw.id }}"{% endif %} class="{{ sw.classes }}"><a href="{{ sw.href }}" hreflang="{{ sw.htmlLang }}" lang="{{ sw.htmlLang }}" class="menu-link">
+{%- if variant != 'footer' %}{{ arrow() }}<span class="menu-text">{% endif -%}
+<img src="{{ sw.flag }}" alt="{{ sw.name }}" width="16" height="11" style="width: 16px; height: 11px;" />
+{%- if variant != 'footer' %}</span>{% endif -%}
+</a></li>
+{%- endmacro %}

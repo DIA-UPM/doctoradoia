@@ -1,0 +1,24 @@
+{#- Off-canvas navigation drawer (mobile/tablet). Opened/closed by src/js/header.js. -#}
+{% from "partials/icons.njk" import closeIcon %}
+{% from "partials/menu.njk" import mainMenu %}
+<div id="ast-mobile-popup-wrapper">
+<div id="ast-mobile-popup" class="ast-mobile-popup-drawer content-align-flex-start ast-mobile-popup-right">
+<div class="ast-mobile-popup-overlay"></div>
+<div class="ast-mobile-popup-inner">
+<div class="ast-mobile-popup-header">
+<button type="button" id="menu-toggle-close" class="menu-toggle-close" aria-label="{{ menu.closeLabel }}" tabindex="0">
+<span class="ast-svg-iconset">
+<span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline">{{ closeIcon() }}</span>							</span>
+</button>
+</div>
+<div class="ast-mobile-popup-content">
+<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
+<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="ast-mobile-site-navigation" aria-label="{{ menu.ariaLabel }}" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="ast-hf-mobile-menu" class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile ast-mega-menu-enabled">{{ mainMenu(menu, 'plain') }}</ul></div></nav></div></div>		</div>
+</div>
+<div class="ast-desktop-popup-content">
+<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
+<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="ast-desktop-site-navigation" aria-label="{{ menu.ariaLabel }}" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="ast-desktop-toggle-menu" class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile ast-mega-menu-enabled">{{ mainMenu(menu, 'plain') }}</ul></div></nav></div></div>		</div>
+</div>
+</div>
+</div>
+</div>

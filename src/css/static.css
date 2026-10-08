@@ -1,0 +1,22 @@
+/*
+ * Additions of the static version (not part of the original theme).
+ * Only keyboard-focus styles for elements that became focusable in the static site
+ * (tab titles, scroll-to-top button); they are invisible for mouse/touch users,
+ * so the appearance of the original site is unchanged.
+ */
+/*
+ * 404 and search-results pages: on the original site these templates only loaded the
+ * Syne 600 font file, so their Syne headings (weight 400/500) were drawn with the 600 face.
+ * The static site loads every Syne weight on every page, so the same result is forced here.
+ */
+body.error404 .error-404 :is(.page-title, .page-sub-title),
+body.search-results #primary :is(.ast-archive-title, .ast-archive-title span, .entry-title, .entry-title a) {
+	font-weight: 600;
+}
+
+.eb-advanced-tabs-wrapper .tabTitles li:focus-visible,
+#ast-scroll-top:focus-visible,
+.menu-toggle-close:focus-visible {
+	outline: 2px solid var(--ast-global-color-0, #046bd2);
+	outline-offset: 2px;
+}

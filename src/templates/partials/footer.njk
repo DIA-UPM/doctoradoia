@@ -1,0 +1,45 @@
+{#- Site footer (Astra footer builder markup). Content: data/site.json (footer) and data/navigation.json. -#}
+{% from "partials/menu.njk" import mainMenu %}
+<footer
+class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
+<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-3-equal ast-builder-grid-row-tablet-3-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
+<div class="ast-builder-grid-row-container-inner">
+<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
+<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
+<aside
+class="footer-widget-area widget-area site-footer-focus-item footer-widget-area-inner" data-section="sidebar-widgets-footer-widget-1" aria-label="Footer Widget 1"				>
+<section id="block-10" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full is-resized wp-duotone-unset-1"><img decoding="async" src="{{ site.footer.logo }}" alt="" class="wp-image-186" style="aspect-ratio:4.761904761904762;width:376px;height:auto"/></figure>
+</section><section id="block-14" class="widget widget_block widget_media_image">
+<figure class="wp-block-image is-resized"><img decoding="async" src="{{ site.footer.campusLogo.src }}" alt="{{ site.footer.campusLogo.alt }}" style="aspect-ratio:1.8447488584474885;width:391px;height:auto"/></figure>
+</section><section id="block-51" class="widget widget_block widget_text">
+<p class="has-white-color has-text-color has-link-color wp-elements-faf3a45022abbb486cbf702296db219e"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-ast-global-color-5-color">{{ site.footer.address[lang] | join('<br>') | safe }}</mark></p>
+</section>		</aside>
+</div>
+<div class="site-footer-primary-section-2 site-footer-section site-footer-section-2">
+<aside
+class="footer-widget-area widget-area site-footer-focus-item footer-widget-area-inner" data-section="sidebar-widgets-footer-widget-2" aria-label="Footer Widget 2"		>
+<section id="block-16" class="widget widget_block">
+<div class="wp-block-essential-blocks-advanced-navigation"><div class="eb-parent-wrapper eb-parent-eb-advanced-navigation-qyz6n0u "><div class="eb-advanced-navigation-qyz6n0u eb-advanced-navigation-wrapper is-horizontal preset-1 items-justified-left responsive-icon close-icon-right"><div class="eb-nav-contents"></div></div></div></div>
+</section><section id="{{ menu.footerWidgetId }}" class="widget widget_nav_menu"><h2 class="widget-title">{{ menu.footerTitle }}</h2><nav class="menu-{{ menu.footerMenuSlug }}-container" aria-label="{{ menu.footerTitle }}"><ul id="menu-{{ menu.footerMenuSlug }}" class="menu">{{ mainMenu(menu, 'footer') }}</ul></nav></section>		</aside>
+</div>
+<div class="site-footer-primary-section-3 site-footer-section site-footer-section-3">
+<aside
+class="footer-widget-area widget-area site-footer-focus-item footer-widget-area-inner" data-section="sidebar-widgets-footer-widget-3" aria-label="Footer Widget 3"		>
+<section id="block-64" class="widget widget_block"><iframe src="{{ site.footer.mapEmbedUrl }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ site.footer.mapTitle[lang] }}"></iframe></section>		</aside>
+</div>
+</div>
+</div>
+</div>
+<div class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-below-footer-builder">
+<div class="ast-builder-grid-row-container-inner">
+<div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
+<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
+<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
+<div class="ast-footer-copyright"><p>{{ site.footer.copyright[lang] | replace('{year}', year) }} <a href="{{ site.footer.poweredBy.url }}" rel="nofollow noopener" target="_blank">{{ site.footer.poweredBy.label }}</a></p>
+</div>			</div>
+</div>
+</div>
+</div>
+</div>
+</footer>

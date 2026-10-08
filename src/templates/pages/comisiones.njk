@@ -1,0 +1,81 @@
+{#-
+  Page template: comisiones.
+  Markup reproduces the original WordPress/Essential Blocks output (CSS classes are
+  needed by src/css/pages/comisiones.*.css). All content comes from data/<lang>/pages/comisiones.json -> "content" (c).
+-#}
+{% extends "layouts/base.njk" %}
+{% set c = page.content %}
+{% block content %}
+<div class="wp-block-essential-blocks-wrapper alignfull">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-gwapcxe ">
+    <div class="eb-wrapper-outer eb-wrapper-gwapcxe">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          <div class="wp-block-essential-blocks-row alignfull" id="hero_section">
+            <div class="eb-parent-wrapper eb-parent-eb-row-yjokuln ">
+              <div class="eb-row-root-container eb-row-yjokuln" data-id="eb-row-yjokuln">
+                <div class="eb-row-wrapper">
+                  <div class="eb-row-inner">
+                    <div class="eb-parent-wrapper eb-parent-eb-column-v62zddu  wp-block-essential-blocks-column">
+                      <div class="eb-column-wrapper eb-column-v62zddu">
+                        <div class="eb-column-inner">
+                          <div class="wp-block-essential-blocks-row alignfull">
+                            <div class="eb-parent-wrapper eb-parent-eb-row-9recpm3 ">
+                              <div class="eb-row-root-container eb-row-9recpm3" data-id="eb-row-9recpm3">
+                                <div class="eb-row-wrapper">
+                                  <div class="eb-row-inner">
+                                    <div class="eb-parent-wrapper eb-parent-eb-column-y6aoqv5  wp-block-essential-blocks-column">
+                                      <div class="eb-column-wrapper eb-column-y6aoqv5">
+                                        <div class="eb-column-inner">
+                                        <div class="wp-block-essential-blocks-advanced-heading">
+                                        <div class="eb-parent-wrapper eb-parent-eb-advance-heading-phz4e97 eb_animation eb___animated eb___fadeIn">
+                                        <div class="eb-advance-heading-wrapper eb-advance-heading-phz4e97 button-1" data-id="eb-advance-heading-phz4e97"><h1 class="eb-ah-title">{{ c.hero.eyebrow.title | safe }}</h1>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="wp-block-essential-blocks-advanced-heading">
+                                        <div class="eb-parent-wrapper eb-parent-eb-advance-heading-whm5l2i eb_animation eb___animated eb___fadeIn">
+                                        <div class="eb-advance-heading-wrapper eb-advance-heading-whm5l2i button-1" data-id="eb-advance-heading-whm5l2i"><h1 class="eb-ah-title">{{ c.hero.title | safe }}</h1>
+                                        <p class="eb-ah-subtitle">{{ c.hero.subtitle | safe }}</p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="eb-parent-wrapper eb-parent-eb-column-bdcogf5  wp-block-essential-blocks-column">
+                                      <div class="eb-column-wrapper eb-column-bdcogf5">
+                                        <div class="eb-column-inner">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wp-block-essential-blocks-wrapper">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-gr2vy3j ">
+    <div class="eb-wrapper-outer eb-wrapper-gr2vy3j">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          {{ c.main.body | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+# dependencies and local toolchain
+node_modules/
+.tools/
+
+# caches: crawl snapshot of the original site, dev build, temporary files
+.cache/
+
+# build output (rebuilt by npm run build / the GitHub Actions workflow)
+dist/
+
+# test outputs
+test-results/
+playwright-report/
+tests/visual/output/
+
+# live-site screenshots (~245 MB): kept locally, regenerate with `npm run baseline`;
+# index.json (what was captured) is versioned
+tests/reference/*.png

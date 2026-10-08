@@ -1,0 +1,108 @@
+{
+  "path": "/acceso_y_admision/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/acceso_y_admision/",
+  "wordpressId": 34,
+  "meta": {
+    "title": "Acceso y admisión - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:56:41+00:00",
+    "modified": "2026-02-27T08:55:03+00:00",
+    "breadcrumb": "Acceso y admisión"
+  },
+  "content": {
+    "hero": {
+      "title": "Bienvenido el talento investigador",
+      "subtitle": "Acceso y admisión",
+      "intro": {
+        "body": "<p class=\"has-white-color has-text-color\">Para acceder al programa de doctorado es necesario:</p>"
+      }
+    },
+    "steps": [
+      {
+        "title": "Cumplir con los requisitos de acceso",
+        "subtitle": "",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-size:13px;line-height:1.3\">Los requisitos de acceso se pueden encontrar en este <strong><a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Admision/Requisitos%20acceso%20al%20doctorado%20RD992011.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">enlace</a><mark class=\"has-inline-color has-ast-global-color-0-color\">.</mark></strong> Más información acerca de los períodos de preinscripción a los Programas Doctorado de la UPM <strong>se puede encontrar </strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">aquí</a></p>"
+      },
+      {
+        "title": "Preinscripción",
+        "subtitle": "Realizar la inscripción previa online",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Realizar la inscripción previa a través del sistema <a href=\"http://upm.es/helios\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>HELIOS</strong></a><br>Los alumnos solicitantes entregarán, a través de la plataforma, toda la información requerida para evaluar si cumple las <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Admision/Requisitos%20acceso%20al%20doctorado%20RD992011.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">condiciones de acceso</a></p>"
+      },
+      {
+        "title": "Acceso",
+        "subtitle": "Evaluación del cumplimiento de los requisitos",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Tras la preinscripción, se realiza una evaluación del cumplimiento de los requisitos de acceso</p>"
+      },
+      {
+        "title": "Admisión",
+        "subtitle": "Verificado que se cumplen los criterios",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Una vez que se ha verificado que se cumplen los criterios de acceso y las condiciones generales de admisión de la UPM, la Comisión Académica del Programa de Doctorado se ocupará de realizar la admisión al mismo.</p>"
+      },
+      {
+        "title": "Matrícula",
+        "subtitle": "Los estudiantes admitidos pueden matricularse",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">En caso de ser admitidos, los estudiantes pueden encontrar en la página web de la UPM el <strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">procedimiento de matrícula</a></strong></p>"
+      }
+    ],
+    "stepsMobile": [
+      {
+        "title": "Cumplir con los requisitos de acceso",
+        "subtitle": "",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-size:13px;line-height:1.3\">Los requisitos de acceso se pueden encontrar en este <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Admision/Requisitos%20acceso%20al%20doctorado%20RD992011.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">enlace.</a><strong><mark class=\"has-inline-color has-ast-global-color-0-color\">..</mark></strong> Más información acerca de los períodos de preinscripción a los Programas Doctorado de la UPM <strong>se puede encontrar </strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">aquí</a></p>"
+      },
+      {
+        "title": "Preinscripción",
+        "subtitle": "Realizar la inscripción previa online",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Realizar la inscripción previa a través del sistema <a href=\"http://upm.es/helios\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>HELIOS</strong></a><br>Los alumnos solicitantes entregarán, a través de la plataforma, toda la información requerida para evaluar si cumple las <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Admision/Requisitos%20acceso%20al%20doctorado%20RD992011.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">condiciones de acceso</a></p>"
+      },
+      {
+        "title": "Acceso",
+        "subtitle": "Evaluación del cumplimiento de los requisitos",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Tras la preinscripción, se realiza una evaluación del cumplimiento de los requisitos de acceso</p>"
+      },
+      {
+        "title": "Admisión",
+        "subtitle": "Verificado que se cumplen los criterios",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">Una vez que se ha verificado que se cumplen los criterios de acceso y las condiciones generales de admisión de la UPM, la Comisión Académica del Programa de Doctorado se ocupará de realizar la admisión al mismo.</p>"
+      },
+      {
+        "title": "Matrícula",
+        "subtitle": "Los estudiantes admitidos pueden matricularse",
+        "body": "<p class=\"has-white-color has-text-color\" style=\"margin-top:var(--wp--preset--spacing--30);margin-right:0rem;margin-bottom:var(--wp--preset--spacing--30);margin-left:0rem;font-size:13px;line-height:1.3\">En caso de ser admitidos, los estudiantes pueden encontrar en la página web de la UPM el <strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">procedimiento de matrícula</a></strong></p>"
+      }
+    ],
+    "details": {
+      "tabs": [
+        "Perfil de ingreso <br>recomendado",
+        "Preinscripción",
+        "Acceso",
+        "Admisión y complementos <br>formativos",
+        "Matrícula"
+      ],
+      "panels": [
+        {
+          "body": "<p>A continuación, se indica una breve descripción de las capacidades, conocimientos previos, lenguas a utilizar en el proceso formativo y el nivel exigido en las mismas, etc. que, en general, se consideran adecuadas para aquellas personas que vayan a comenzar los estudios de doctorado en el Programa:</p>",
+          "capacities": {
+            "body": "<h5 class=\"wp-block-heading has-ast-global-color-2-color has-text-color has-link-color wp-elements-9dbcfba61551791fecbbe954c31608d4\" style=\"padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)\">Capacidades</h5>\n<ul class=\"wp-block-list\">\n<li>Habilidad para la lectura y comprensión de textos.</li>\n<li> Buena comunicación oral y escrita. </li>\n<li>Interés por la investigación en el área de la Inteligencia Artificial. </li>\n<li>Capacidad creativa y analítica en la búsqueda de soluciones a problemas concretos. </li>\n<li>Capacidad de observación, iniciativa y disposición al trabajo en equipo.</li>\n</ul>"
+          },
+          "priorKnowledge": {
+            "body": "<h5 class=\"wp-block-heading has-ast-global-color-2-color has-text-color has-link-color wp-elements-834fcb6c1985ebce90c692b46572eed4\" style=\"padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)\">Conocimientos previos</h5>\n<ul class=\"wp-block-list\">\n<li>Estar en posesión de un título de máster, licenciado, ingeniero o graduado en el ámbito de las Tecnologías de la Información y de las Comunicaciones. </li>\n<li>Estar en posesión de un título de licenciado o graduado en Matemáticas, en Físicas o en alguna especialidad en Computación. </li>\n<li>Un nivel de conocimiento equivalente al B2 de lengua inglesa, lengua a utilizar durante el proceso formativo.</li>\n</ul>"
+          }
+        },
+        {
+          "body": "<p>Para acceder al Programa de Doctorado es necesario</p>\n<ul class=\"wp-block-list\">\n<li>cumplir los <strong><a href=\"https://www.upm.es/gsfs/SFS07902\">requisitos de acceso</a> </strong></li>\n<li>y realizar la inscripción previa a través del <a href=\"https://www.upm.es/tramites/\">portal de trámites </a>de la UPM</li>\n</ul>\n<p>La preinscripción al Programa se debe realizar<a href=\"https://www.upm.es/tramites/\"> <strong>on-line</strong>.</a> Los alumnos solicitantes entregarán, a través del portal de trámites de la UPM, toda la información requerida para evaluar si cumple los requisitos de acceso y los <strong>criterios de admisión</strong>.</p>\n<p>Más información acerca de los períodos de preinscripción a los Programas Doctorado de la UPM <strong>se puede encontrar <a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">aquí</a></strong>.</p>"
+        },
+        {
+          "body": "<p>Tras la preinscripción, se realiza una evaluación del cumplimiento de los requisitos de acceso. En este<strong> <a href=\"https://www.upm.es/gsfs/SFS07902\" target=\"_blank\" rel=\"noreferrer noopener\">enlace</a></strong> se pueden ver cuáles son estos requisitos.</p>"
+        },
+        {
+          "body": "<p>Una vez que se ha verificado que se cumplen los criterios de acceso y las condiciones generales de admisión de la UPM, la Comisión Académica del Programa de Doctorado se ocupará de realizar la admisión al Programa.</p>\n<p>A continuación, se detallan los <strong>criterios de selección junto a su correspondiente valoración</strong>, realizada sobre un total de 100 puntos (aprobados en la CAPDIA 64 del 3 de febrero de 2020):</p>\n<p>a) Rendimiento académico (hasta un máximo de 40 puntos)</p>\n<ul class=\"wp-block-list\">\n<li>Para aquellos alumnos que procedan del Máster Universitario en Inteligencia Artificial por la Universidad Politécnica de Madrid, se valorará el rendimiento académico del alumno en dicho periodo.</li>\n<li>Para alumnos que no procedan de dicho máster, se valorará la formación académica y el expediente académico, especialmente en las titulaciones con competencias y conocimientos relacionadas con las áreas de especialización del Programa de Doctorado.</li>\n</ul>\n<p>b) Experiencia profesional e investigadora (hasta un máximo de 30 puntos)</p>\n<p>Se valorará:</p>\n<ul class=\"wp-block-list\">\n<li>La colaboración con algún equipo de investigación nacional o internacional relacionado con las áreas de especialización del Programa de Doctorado.</li>\n<li>La realización de actividades de investigación e innovación en un departamento de I+D+i de una empresa.</li>\n<li>Las publicaciones incluidas en JCR y conferencias nacionales e internacionales con revisores por pares.</li>\n<li>Las estancias en centros extranjeros.</li>\n<li>La participación en proyectos de investigación.</li>\n</ul>\n<p>c)  Carta de recomendación <strong>de un miembro de la Comisión Académica del Programa</strong> (hasta un máximo de 30 puntos)</p>\n<p>Se valorarán entre otros aspectos:</p>\n<ul class=\"wp-block-list\">\n<li>El interés personal del alumno.</li>\n<li>Su proyección profesional.</li>\n<li>La adecuación de sus intereses al Programa.</li>\n<li>Su predisposición para trabajo individual.</li>\n<li>Su predisposición para el trabajo en grupo.</li>\n<li>Su interés en el campo de la investigación.</li>\n</ul>\n<p>Una vez seleccionados, la admisión de alumnos queda supeditada al cupo establecido.</p>\n<p><strong>Plazas de nuevo ingreso ofertadas cada curso académico: 15</strong></p>\n<p>Además, la <strong>admisión poseerá los siguientes</strong> <strong>condicionantes específicos</strong> del Programa, y se realizará en el siguiente orden de prioridad:</p>\n<p><strong><u>1.</u></strong> Alumnos procedentes de Máster.</p>\n<ul class=\"wp-block-list\">\n<li><strong>1.1.</strong> Si el alumno procede de un Máster en las áreas de conocimiento de <em>Inteligencia Artificial</em> o <em>Ciencias de la Computación e Inteligencia Artificial</em> se admite directamente.</li>\n</ul>\n<ul class=\"wp-block-list\">\n<li><strong>1.2.</strong> Si el alumno no cumple el requisito (1), pero ha cursado una Ingeniería o un Máster con al menos 15 ECTS en alguna especialidad de <em>Inteligencia Artificial</em>, será admitido con la condición de cursar, como complemento formativo, 10 ECTS de entre las Asignaturas y Seminarios ofertados en el <em>Máster Universitario en Inteligencia Artificial por la Universidad Politécnica de Madrid</em>.</li>\n<li><strong>1.3.</strong> Si el alumno no cumple las condiciones específicas de los puntos (1.1 y 1.2) está en posesión de un título de máster en otras ramas de la Informática, Telecomunicaciones y Matemáticas será admitido con la condición de cursar, como complemento formativo, 20 ECTS de entre las Asignaturas y Seminarios ofertados en el <em>Máster Universitario en Inteligencia Artificial por la Universidad Politécnica de Madrid</em>.</li>\n<li><strong>1.4.</strong> Si el alumno no cumple las condiciones específicas de los puntos (1.1, 1.2, y 1.3) y está posesión de un título de máster será admitido con la condición de cursar, como complemento formativo, 30 ECTS de entre las Asignaturas y Seminarios ofertados en el <em>Máster Universitario en Inteligencia Artificial por la Universidad Politécnica de Madrid</em>.</li>\n</ul>\n<p><strong><u>2.</u></strong> Alumnos en posesión del grado de Doctor. Se procederá a su admisión aplicando los mismos tipos de complementos que para alumnos procedentes de Máster.</p>\n<p><strong><u>3.</u></strong><strong> </strong>Alumnos procedentes de Grado. La Comisión del Programa recomendará a estos alumnos matricularse en el Máster Universitario en Inteligencia Artificial por la Universidad Politécnica de Madrid previo a su matriculación en el Programa de Doctorado. No obstante, si la Comisión decide admitirlo:</p>\n<ul class=\"wp-block-list\">\n<li><strong>3.1.</strong> Los alumnos que proceden del Grado serán admitidos con la condición de cursar, como complemento formativo, 40 ECTS de entre las Asignaturas y Seminarios ofertados en el <em>Máster Universitario en Inteligencia Artificial por la Universidad Politécnica de Madrid</em>.</li>\n<li><strong>3.2.</strong> Si el alumno se encuentra en el caso previsto por el artículo 6.1.b del R.D. 99/2011 (graduados de una titulación de grado española de al menos 300ECTS que no hayan recibido créditos de investigación equivalentes en valor formativo a los créditos de investigación procedentes de estudios de Máster), será admitido con la condición de cursar los complementos formativos requeridos.</li>\n</ul>\n<p>Los aspirantes no admitidos podrán presentar una reclamación en el plazo y forma establecidos en cada convocatoria. Una vez finalizado el plazo de reclamaciones y resueltas éstas, se remitirá la relación de alumnos finalmente admitidos al órgano de gestión de alumnos correspondiente, a efectos de poder formalizar su matrícula en el plazo que se señale. De no formalizar su matrícula, el solicitante decaerá en sus derechos.</p>"
+        },
+        {
+          "body": "<p>En caso de ser admitidos, los estudiantes pueden encontrar en la página web de la UPM el <strong><a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion\" target=\"_blank\" rel=\"noreferrer noopener\">procedimiento de matrícula</a></strong>.</p>"
+        }
+      ]
+    }
+  }
+}

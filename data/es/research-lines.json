@@ -1,0 +1,149 @@
+{
+  "description": "Líneas/equipos de investigación (página Investigación). Los profesores se referencian por su id en data/people.json.",
+  "lines": [
+    {
+      "slug": "aplicaciones-de-la-inteligencia-artificial",
+      "number": 1,
+      "tabTitle": "Línea/Equipo 1: Aplicaciones de la Inteligencia Artificial",
+      "description": "<p><strong>Descripción</strong>: Esta línea de investigación corresponde a contenidos relacionados con la aplicación de técnicas de inteligencia artificial en dominios en los que las técnicas de la disciplina son especialmente adecuadas para resolver problemas relacionados con temas como manejo de incertidumbre, toma de decisiones, extracción y descubrimiento de conocimiento en fuentes de datos estructuradas y no estructuradas, diagnóstico y solución de problemas o integración de información heterogénea a diferentes niveles. Entre otras, se incluyen áreas de aplicación multidisciplinares como la bioinformática o la hidroinformática, donde la inteligencia artificial tiene una importante presencia. Estas áreas muestran el interés cada vez mayor de integrar disciplinas profesionales con las tecnologías de la información y la inteligencia artificial para generar resultados de investigación. También se incluyen áreas de investigación sobre internet (web semántica, internet del futuro) así como otros temas de aplicación (neurociencia, nanoinformática, etc.). Los contenidos de esta línea coinciden con temas de diferentes áreas identificadas en el Programa Marco por la Comisión Europea, particularmente del área de Information and Communication Technologies (ICT). En todos los temas de esta línea, los avalistas han desarrollado numerosos proyectos nacionales e internacionales, con numerosas publicaciones y con la formación, pasada y presente, de un alto número de doctorandos.</p>",
+      "topicsHeading": "<p><strong>Temas de investigación</strong>:</p>",
+      "topics": [
+        "Informática médica",
+        "Bioinformática",
+        "Hidroinformática",
+        "Neurociencia",
+        "Web Semántica",
+        "Internet del Futuro",
+        "Nanoinformática"
+      ],
+      "professorsHeading": "<p><strong>Profesores Investigadores propios</strong> (doctores): </p>",
+      "professors": [
+        "garcia-cuesta-esteban",
+        "garcia-remesal-miguel",
+        "hernandez-diego-josefa-zuleide",
+        "maojo-garcia-victor-manuel",
+        "molina-gonzalez-martin",
+        "perez-del-rey-david",
+        "serrano-fernandez-emilio"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "computacion-natural",
+      "number": 2,
+      "tabTitle": "Línea/Equipo 2: Computación Natural",
+      "description": "<p><strong>Descripción</strong>: Esta línea tiene como objetivo fundamental la formación de doctores en áreas de investigación relacionadas con la Computación Natural. Esta área engloba dos perspectivas complementarias: (1) la «naturaleza como inspiración» que se encarga del estudio de modelos y técnicas computacionales inspiradas en la naturaleza para resolver problemas computacionales complejos (como por ejemplo la computación evolutiva, los autómatas celulares, las redes de neuronas artificiales o la computación con membranas entre otros) y (2) la «naturaleza como tecnología programable» que se centra en la programación e ingeniería de sistemas biológicos artificiales (la nueva área denominada biología sintética), la computación biomolecular, la computación con ADN y la programación celular. Esta es un área interdisciplinar emergente en la que confluyen investigadores procedentes de las ciencias naturales (biología, química, física) así como de las ingenierías y la informática.</p>",
+      "topicsHeading": "<p><strong>Temas de investigación:</strong></p>",
+      "topics": [
+        "Computación Natural",
+        "Computación bio-inspirada",
+        "Computación Evolutiva",
+        "Biología Sintética",
+        "Ingeniería de sistemas biológicos",
+        "Biología de sistemas",
+        "Computación biomolecular",
+        "Computación con ADN",
+        "Programación celular"
+      ],
+      "professorsHeading": "<p><strong>Profesores Investigadores propios</strong> (doctores):</p>",
+      "professors": [
+        "manrique-gamo-daniel",
+        "rodriguez-paton-aradas-alfonso"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "percepcion-manipulacion-y-comunicacion",
+      "number": 3,
+      "tabTitle": "Línea/Equipo 3: Percepción, Manipulación y Comunicación",
+      "description": "<p><strong>Descripción</strong>: En esta línea se formarán doctores en el campo de la interacción de las máquinas entre sí y con su entorno.</p>\n<p>El objetivo de este área de investigación es la construcción de sistemas que puedan realizar funciones perceptivas, comunicativas, de manipulación y navegación con un elevado grado de autonomía. Se abordan problemas relacionados con la percepción visual y el modelado del entorno, creación y mantenimiento de recursos léxicos, recuperación de información, traducción automática, así como sistemas de control y navegación autónoma, y de interacción hombre-máquina.</p>\n<p>Se apoya en métodos y técnicas propias de la robótica, la visión por computador y la ingeniería lingüística, así como en las desarrolladas dentro de otras líneas del programa, tales como aprendizaje automático, optimización, representación del conocimiento y razonamiento,</p>",
+      "topicsHeading": "<p><strong>Temas de investigación:</strong></p>",
+      "topics": [
+        "Interacción hombre-máquina",
+        "Robótica móvil, sistemas multi-robot y multi-componente",
+        "Control avanzado",
+        "Modelos cognitivos y bioinspirados",
+        "Procesamiento de imágenes y visión por computador",
+        "Recursos lingüísticos",
+        "Traducción automática",
+        "Recuperación y extracción de información",
+        "Ingeniería Lingüística",
+        "Sistemas pregunta-respuesta"
+      ],
+      "professorsHeading": "<p><strong>Profesores Investigadores propios</strong> (doctores):</p>",
+      "professors": [
+        "baumela-molina-luis",
+        "de-lope-asiain-javier",
+        "valle-fernandez-roberto"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "inteligencia-computacional",
+      "number": 4,
+      "tabTitle": "Línea/Equipo 4: Inteligencia Computacional",
+      "description": "<p><strong>Descripción</strong>: Esta línea de investigación tiene como objetivo fundamental la formación de doctores en métodos avanzados de modelización (desde perspectivas de aprendizaje automático y estadística) y la optimización heurística, con aplicaciones en neurociencia.</p>\n<p>El área principal de investigación es la modelización, con intereses investigadores en temas como: los denominados «data streams», la clasificación supervisada multi-dimensional, el clustering en espacios de alta dimensionalidad, las técnicas de selección de variables, usando métodos provenientes de las redes Bayesianas, la regularización, y la clasificación vía regresión. En optimización heurística, se investiga en problemas multi-objetivo con especial interés en los denominados algoritmos de estimación de distribuciones, un tipo de computación evolutiva que no necesita de la definición de operadores de cruce y mutación con los que evolucionar las poblaciones de individuos. La neurociencia constituye nuestro dominio de aplicación. Se abordan problemas tales como la clasificación de las neuronas a partir de sus características morfológicas, el clustering de espinas, o la distribución espacial de las sinapsis, junto con aplicaciones en enfermedades neurodegenerativas como el Alzheimer, el Parkinson o la epilepsia.</p>\n<p>Los contenidos de esta línea coinciden con temas de diferentes áreas identificadas en el Programa Marco por la Comisión Europea, particularmente del área de Information and Communication Technologies (ICT). En todos los temas de esta línea, los avalistas han desarrollado numerosos proyectos nacionales e internacionales, con numerosas publicaciones y con la formación, pasada y presente, de un alto número de doctorandos.</p>",
+      "topicsHeading": "<p><strong>Temas de investigación:</strong></p>",
+      "topics": [
+        "Aprendizaje automático",
+        "Redes Bayesianas",
+        "Teoría de la decisión",
+        "Optimización multiobjetivo",
+        "Selección de variables",
+        "Heurísticos de optimización",
+        "Algoritmos de estimación de distribuciones"
+      ],
+      "professorsHeading": "<p><strong>Profesores Investigadores propios</strong> (doctores):</p>",
+      "professors": [
+        "bajo-perez-javier",
+        "bielza-lozoya-maria-concepcion",
+        "gonzalez-pachon-jacinto",
+        "jimenez-martin-antonio",
+        "larranaga-mugica-pedro-maria",
+        "mateos-caballero-alfonso",
+        "melgar-garcia-laura",
+        "mihaljevic-bojan"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "representacion-del-conocimiento-y-razonamiento",
+      "number": 5,
+      "tabTitle": "Línea/Equipo 5: Representación del Conocimiento y Razonamiento",
+      "description": "<p><strong>Descripción</strong>: Esta línea tiene como objetivo la formación de doctores en metodologías, modelos, métodos y técnicas relacionados con la representación del conocimiento y datos generales y de dominios específicos, así como métodos de inferencia para la simulación del razonamiento humano. En la temática de representación de conocimientos cabe destacar las ontologías, la representación de los datos vía el paradigma de los datos enlazados y los modelos lógicos y las lógicas descriptivas. En lo referente al razonamiento las temáticas de agentes, programación lógica y razonamiento basado en modelos. De esta línea de investigación surgen relaciones con otras líneas del programa con el fin de generar resultados de investigación más aplicados (por ejemplo, con la línea de Aplicaciones de la Inteligencia Artificial). Los contenidos de esta línea coinciden con temas de diferentes áreas identificadas en el Programa Marco por la Comisión Europea, particularmente del área de Information and Communication Technologies (ICT). En todos los temas de esta línea, los avalistas han desarrollado numerosos proyectos nacionales e internacionales, con numerosas publicaciones y con la formación, pasada y presente, de un alto número de doctorandos.</p>",
+      "topicsHeading": "<p><strong>Temas de investigación:</strong></p>",
+      "topics": [
+        "Ingeniería ontológica",
+        "Web semántica",
+        "Datos enlazados",
+        "Multilingüismo",
+        "Modelos lógicos",
+        "Lógica descriptiva",
+        "Extensiones de la lógica clásica",
+        "Programación lógica",
+        "Integración de datos",
+        "Representación de contenido. Contextos de aplicación.",
+        "Agentes y sistemas multiagentes",
+        "Lógica borrosa",
+        "Razonamiento de sentido común",
+        "Razonamiento cualitativo",
+        "Razonamiento probabilístico",
+        "Razonamiento basado en modelos",
+        "Razonamiento no monótono"
+      ],
+      "professorsHeading": "<p><strong>Profesores Investigadores propios</strong> (doctores):</p>",
+      "professors": [
+        "corcho-garcia-oscar",
+        "garcia-castro-raul",
+        "garijo-verdejo-daniel",
+        "gomez-perez-asuncion-de-maria",
+        "hermenegildo-salinas-manuel-de",
+        "poveda-villalon-maria",
+        "rico-almodovar-mariano",
+        "rodriguez-doncel-victor",
+        "suarez-de-figueroa-baonza-maria-del-carmen"
+      ],
+      "contactLabel": "contacto"
+    }
+  ]
+}

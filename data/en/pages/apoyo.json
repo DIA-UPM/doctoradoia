@@ -1,0 +1,54 @@
+{
+  "path": "/language/en/student-support-and-guidance-systems/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/student-support-and-guidance-systems/",
+  "wordpressId": 73,
+  "meta": {
+    "title": "Student Support and Guidance Systems - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "ogImage": {
+      "src": "/assets/images/grupo-de-alumnos-de-doctorado.jpg",
+      "width": 1024,
+      "height": 576,
+      "type": "image/jpeg"
+    },
+    "published": "2017-07-24T05:57:00+00:00",
+    "modified": "2026-10-06T08:17:26+00:00",
+    "breadcrumb": "Student Support and Guidance Systems"
+  },
+  "content": {
+    "hero": {
+      "title": "Count on Us",
+      "subtitle": "Support and orientation",
+      "intro": {
+        "body": "<p class=\"has-white-color has-text-color\">A series of actions have been developed in order to offer support and orientation to new students once they are registered</p>"
+      }
+    },
+    "sections": {
+      "tabs": [
+        "Welcome session",
+        "Specific actions for foreign students and students with special educational need<strong>s</strong>",
+        "Scholarships and study grants",
+        "Languages Programme for Internationalisation",
+        "Job Counselling"
+      ],
+      "panels": [
+        {
+          "body": "<p>The aim of the welcome session, conducted at the commencement of each academic year, is to present a comprehensive overview of the routine activities and services provided by the Technical University of Madrid (UPM) and the School of Computer Engineering (ETSII). This is intended to enable the most effective adaptation and integration of students into their new environment. It provides a broad perspective on the progression of doctoral studies, the research avenues being explored, and details the services and resources available to the student body.</p>\n<p><a href=\"/wp-content/uploads/sites/8/2026/10/FAQ_CAPDIA_en.pdf\">Frecuent questions.</a></p>\n<figure class=\"wp-block-image size-full\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"576\" src=\"/assets/images/grupo-de-alumnos-de-doctorado.jpg\" alt=\"\" class=\"wp-image-1315\" srcset=\"/assets/images/grupo-de-alumnos-de-doctorado.jpg 1024w, /assets/images/grupo-de-alumnos-de-doctorado-300x169.jpg 300w, /assets/images/grupo-de-alumnos-de-doctorado-768x432.jpg 768w\" sizes=\"(max-width: 1024px) 100vw, 1024px\"></figure>"
+        },
+        {
+          "body": "<p><a href=\"http://www.fi.upm.es/?pagina=286#orgca4cdd4\" target=\"_blank\" rel=\"noreferrer noopener\">The External Relations Office (OREX)</a> of the ETSII collects specific actions related to information and support for international students: a system of information and guidance on legal procedures, documentation, etc.</p>\n<p>Additionally, the University has an <a href=\"https://www.upm.es/UPM/CompromisoSocial/UAD\" target=\"_blank\" rel=\"noreferrer noopener\">Accessibility and Disability Support Unit (uAd)</a>. This unit is responsible for ensuring equality of opportunity, universal accessibility, and non-discrimination in access, retention, and progression in the university environment for those members of the University Community who are in a situation of functional diversity or have a special need for educational support. It also aims to raise awareness and sensitize all its members about education without barriers and design for all.</p>\n<p>The University also offers a student support section on its website. There, one can find a practical information guide useful for international students, as well as information on student accommodation and assistance insurance.</p>"
+        },
+        {
+          "body": "<p>The University provides students with a section on its <a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas\" target=\"_blank\" rel=\"noreferrer noopener\">website</a> whose purpose is to offer doctoral candidates a place to find all national, regional, internal, and external forms of assistance available for undertaking their doctoral studies. In this section, information is also available on mobility calls for stays, and the annual UPM Social Action call regarding transport aid</p>"
+        },
+        {
+          "body": "<p><a href=\"https://www.lenguas.upm.es/\">The UPM </a><a href=\"https://www.lenguas.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">Language</a><a href=\"https://www.lenguas.upm.es/\"> Center </a>has been offering a flexible range of Language Courses tailored to the specific needs of the university community. Through the Language Center, the UPM once again demonstrates its international spirit and its active participation in academic mobility projects both within and outside the European Union. The program is particularly aimed at students and offers courses in Spanish as well as in foreign languages.</p>"
+        },
+        {
+          "body": "<p><a href=\"http://www.fi.upm.es/?pagina=286\" target=\"_blank\" rel=\"noreferrer noopener\">The External Relations Office (OREX)</a> of the <a href=\"https://www.fi.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">ETSII</a> provides guidance and informational support to students wishing to enter the workforce.</p>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{#- 404 page (Astra "404 layout 1"). Texts: data/<lang>/system.json → notFound. -#}
+{% extends "layouts/base.njk" %}
+{% block main %}
+	<div id="primary" class="content-area primary">
+<section class="error-404 not-found">
+	<div class="ast-404-layout-1" >
+	<header class="page-header"><h1 class="page-title">{{ collections.system.notFound.heading }}</h1></header><!-- .page-header -->
+	<div class="page-content">
+		<h3 class="page-sub-title">
+			{{ collections.system.notFound.text }}		</h3>
+		<div class="ast-404-search">
+			<div class="widget widget_search">{% include "partials/search-form.njk" %}
+</div>		</div>
+	</div><!-- .page-content -->
+</div>
+</section><!-- .error-404 -->
+	</div><!-- #primary -->
+{% endblock %}

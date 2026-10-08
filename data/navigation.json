@@ -1,0 +1,152 @@
+{
+  "es": {
+    "ariaLabel": "Navegación del sitio: main-menu",
+    "footerTitle": "MENÚ DE NAVEGACIÓN",
+    "footerWidgetId": "nav_menu-1",
+    "footerMenuSlug": "main-menu",
+    "submenuToggleLabel": "Conmutador del menú",
+    "submenuButtonLabel": "Alternar menú",
+    "mobileToggleLabel": "Main Menu",
+    "closeLabel": "Close menu",
+    "skipLinkLabel": "Ir al contenido",
+    "scrollTopLabel": "Scroll al inicio",
+    "items": [
+      {
+        "id": 109,
+        "label": "Presentación",
+        "page": "home"
+      },
+      {
+        "id": 156,
+        "label": "Aspirantes",
+        "children": [
+          {
+            "id": 120,
+            "label": "Objetivos y competencias",
+            "page": "objetivos"
+          },
+          {
+            "id": 111,
+            "label": "Acceso y admisión",
+            "page": "acceso"
+          },
+          {
+            "id": 112,
+            "label": "Apoyo y orientación",
+            "page": "apoyo"
+          },
+          {
+            "id": 113,
+            "label": "Líneas y equipos de investigación",
+            "page": "investigacion"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "label": "Formación",
+        "page": "formacion"
+      },
+      {
+        "id": 115,
+        "label": "Tesis",
+        "page": "tesis"
+      },
+      {
+        "id": 116,
+        "label": "Comisiones",
+        "page": "comisiones"
+      },
+      {
+        "id": 119,
+        "label": "+ Info",
+        "page": "informacion"
+      },
+      {
+        "id": 1748,
+        "label": "Contacto",
+        "page": "contacto"
+      }
+    ],
+    "languageSwitcher": {
+      "id": "146-en",
+      "language": "en",
+      "termId": 3
+    }
+  },
+  "en": {
+    "ariaLabel": "Site Navigation: menu-main-menu-english",
+    "footerTitle": "NAVIGATION MENU",
+    "footerWidgetId": "nav_menu-3",
+    "footerMenuSlug": "menu-main-menu-english",
+    "submenuToggleLabel": "Menu Toggle",
+    "submenuButtonLabel": "Menu Toggle",
+    "mobileToggleLabel": "Main Menu",
+    "closeLabel": "Close menu",
+    "skipLinkLabel": "Skip to content",
+    "scrollTopLabel": "Scroll to Top",
+    "items": [
+      {
+        "id": 107,
+        "label": "Overview",
+        "page": "home"
+      },
+      {
+        "id": 157,
+        "label": "Applicants",
+        "children": [
+          {
+            "id": 127,
+            "label": "Aims And Competences",
+            "page": "objetivos"
+          },
+          {
+            "id": 129,
+            "label": "Entry requirements",
+            "page": "acceso"
+          },
+          {
+            "id": 130,
+            "label": "Support and guidance",
+            "page": "apoyo"
+          },
+          {
+            "id": 131,
+            "label": "Lines of research and research groups",
+            "page": "investigacion"
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "label": "Training",
+        "page": "formacion"
+      },
+      {
+        "id": 134,
+        "label": "Thesis",
+        "page": "tesis"
+      },
+      {
+        "id": 141,
+        "label": "Committee",
+        "page": "comisiones"
+      },
+      {
+        "id": 126,
+        "label": "For info",
+        "page": "informacion"
+      },
+      {
+        "id": 1751,
+        "label": "Contact",
+        "page": "contacto"
+      }
+    ],
+    "languageSwitcher": {
+      "id": "145-es",
+      "language": "es",
+      "termId": 5
+    }
+  }
+}

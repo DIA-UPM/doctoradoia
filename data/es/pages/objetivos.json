@@ -1,0 +1,85 @@
+{
+  "path": "/objetivos_competencias/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/objetivos_competencias/",
+  "wordpressId": 31,
+  "meta": {
+    "title": "Objetivos, competencias, capacidades y destrezas - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "ogImage": {
+      "src": "/assets/images/joven-investigador-con-brazo-robot.jpg"
+    },
+    "published": "2017-07-24T05:56:04+00:00",
+    "modified": "2024-09-02T15:56:57+00:00",
+    "breadcrumb": "Objetivos, competencias, capacidades y destrezas"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": "Pensando en tu éxito"
+      },
+      "title": "Objetivos y competencias<br>del doctorado",
+      "subtitle": "Consulta la descripción completa del doctorado en Inteligencia Artificial",
+      "button": {
+        "url": "/wp-content/uploads/sites/8/2024/05/1_MemoVerificada.pdf",
+        "label": "Ver descripción"
+      }
+    },
+    "objectives": {
+      "heading": {
+        "title": "Objetivos, competencias, capacidades y destrezas",
+        "subtitle": "Los objetivos generales del Programa de Doctorado en Inteligencia Artificial son los siguientes:"
+      },
+      "items": [
+        {
+          "image": "/assets/images/joven-investigador-con-brazo-robot.jpg",
+          "imageAlt": "",
+          "title": "Objetiv0 1",
+          "description": "Formar a un núcleo de personas que sepan abordar y solucionar problemas de carácter científico y tecnológico en el área de la Inteligencia Artificial, mediante un trabajo de investigación independiente y original que amplíe las fronteras del conocimiento."
+        },
+        {
+          "image": "/assets/images/alumnos-sonrientes-con-robot.jpg",
+          "imageAlt": "",
+          "title": "Objetivo 2",
+          "description": "Formar a investigadores que sepan diseminar los resultados de la investigación a través de publicaciones científicas del área con proceso de revisión y con índice de impacto reconocido."
+        },
+        {
+          "image": "/assets/images/Alumno-asiatico-sonriendo.jpg",
+          "imageAlt": "",
+          "title": "Objetivo 3",
+          "description": "Ofrecer a la sociedad una serie de personas capaces de elaborar, evaluar y/o criticar nuevas propuestas de investigación científica y/o desarrollo tecnológico, en el área de la Inteligencia Artificial."
+        },
+        {
+          "image": "/assets/images/alumnos-sonrientes-8.jpg",
+          "imageAlt": "",
+          "title": "Objetivo 4",
+          "description": "Formar investigadores que puedan optar a un trabajo que requiera el título de Doctor, como investigador posdoctoral, profesor universitario, investigador en institutos o empresas, y en otros empleos que requieran creatividad, liderazgo y gestión en el ámbito tecnológico."
+        },
+        {
+          "image": "/assets/images/alumno-obetivo5-doctorado.jpg",
+          "imageAlt": "",
+          "title": "Objetivo 5",
+          "description": "Formar en la toma de conciencia de la actividad científica como profesión y de sus implicaciones éticas en la sociedad."
+        }
+      ]
+    },
+    "competences": {
+      "tabs": [
+        "Competencias básicas",
+        "Capacidades y <br>destrezas personales",
+        "Otras competencias"
+      ],
+      "panels": [
+        {
+          "body": "<p><strong>CB11.</strong> Comprensión sistemática de un campo de estudio y dominio de las habilidades y métodos de investigación relacionados con dicho campo.<br><br><strong>CB12. </strong>Capacidad de concebir, diseñar o crear, poner en práctica y adoptar un proceso sustancial de investigación o creación.<br><br><strong>CB13.</strong> Capacidad para contribuir a la ampliación de las fronteras del conocimiento a través de una investigación original.<br><br><strong>CB14. </strong>Capacidad de realizar un análisis crítico y de evaluación y síntesis de ideas nuevas y complejas.<br><br><strong>CB15. </strong>Capacidad de comunicación con la comunidad académica y científica y con la sociedad en general acerca de sus ámbitos de conocimiento en los modos e idiomas de uso habitual en su comunidad científica internacional.<br><br><strong>CB16. </strong>Capacidad de fomentar, en contextos académicos y profesionales, el avance científico, tecnológico, social, artístico o cultural dentro de una sociedad basada en el conocimiento.</p>"
+        },
+        {
+          "body": "<p><strong>CA01.</strong> Desenvolverse en contextos en los que hay poca información específica.<br><br><strong>CA02. </strong>Encontrar las preguntas claves que hay que responder para resolver un problema complejo.<br><br><strong>CA03.</strong> Diseñar, crear, desarrollar y emprender proyectos novedosos e innovadores en su ámbito de conocimiento.<br><br><strong>CA04.</strong> Trabajar tanto en equipo como de manera autónoma en un contexto internacional o multidisciplinar.<br><br><strong>CA05. </strong>Integrar conocimientos, enfrentarse a la complejidad y formular juicios con información limitada.<br><br><strong>CA06. </strong>La crítica y defensa intelectual de soluciones.</p>"
+        },
+        {
+          "body": "<p><strong>OC1. </strong>Comprensión de los mecanismos de financiación de la investigación y transferencia de la tecnología, así como de la legislación vigente sobre protección de los datos en la realización de la investigación y la protección legal de los resultados.</p>"
+        }
+      ]
+    }
+  }
+}

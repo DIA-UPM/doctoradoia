@@ -1,0 +1,22 @@
+{
+  "path": "/investigacion/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/investigacion/",
+  "wordpressId": 42,
+  "meta": {
+    "title": "Líneas y equipos de investigación - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:57:31+00:00",
+    "modified": "2026-02-27T09:29:49+00:00",
+    "breadcrumb": "Líneas y equipos de investigación"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": "Investigación avanzada en IA"
+      },
+      "title": "Líneas y equipos de investigación",
+      "subtitle": "El programa se desarrolla en cinco líneas/equipos de investigación, que se describen a continuación:"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "navigation.schema.json",
+  "title": "Navigation",
+  "description": "Main menu per language (header, sticky header, mobile drawer and footer): data/navigation.json",
+  "type": "object",
+  "minProperties": 1,
+  "additionalProperties": { "$ref": "#/definitions/menu" },
+  "definitions": {
+    "item": {
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "integer", "description": "Original WordPress menu item id (CSS class menu-item-N). Any unique number for new items." },
+        "label": { "type": "string", "minLength": 1 },
+        "page": { "type": "string", "description": "Key of a page (file name in data/<lang>/pages/)." },
+        "url": { "type": "string", "description": "External or custom link (instead of page)." },
+        "children": { "type": "array", "items": { "$ref": "#/definitions/item" } }
+      }
+    },
+    "menu": {
+      "type": "object",
+      "required": ["ariaLabel", "footerTitle", "footerWidgetId", "footerMenuSlug", "items", "languageSwitcher"],
+      "properties": {
+        "ariaLabel": { "type": "string" },
+        "footerTitle": { "type": "string" },
+        "footerWidgetId": { "type": "string" },
+        "footerMenuSlug": { "type": "string" },
+        "submenuToggleLabel": { "type": "string" },
+        "submenuButtonLabel": { "type": "string" },
+        "mobileToggleLabel": { "type": "string" },
+        "closeLabel": { "type": "string" },
+        "skipLinkLabel": { "type": "string" },
+        "scrollTopLabel": { "type": "string" },
+        "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/item" } },
+        "languageSwitcher": {
+          "type": "object",
+          "required": ["id", "language", "termId"],
+          "properties": { "id": { "type": "string" }, "language": { "type": "string" }, "termId": { "type": "integer" } }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{#-
+  Page template: investigacion.
+  Markup reproduces the original WordPress/Essential Blocks output (CSS classes are
+  needed by src/css/pages/investigacion.*.css). All content comes from data/<lang>/pages/investigacion.json -> "content" (c).
+-#}
+{% extends "layouts/base.njk" %}
+{% set c = page.content %}
+{% block content %}
+<div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-gwapcxe">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-gwapcxe ">
+    <div class="eb-wrapper-outer eb-wrapper-gwapcxe">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          <div class="wp-block-essential-blocks-row alignfull  root-eb-row-yjokuln" id="hero_section">
+            <div class="eb-parent-wrapper eb-parent-eb-row-yjokuln ">
+              <div class="eb-row-root-container eb-row-yjokuln" data-id="eb-row-yjokuln">
+                <div class="eb-row-wrapper">
+                  <div class="eb-row-inner">
+                    <div class="wp-block-essential-blocks-column  root-eb-column-v62zddu">
+                      <div class="eb-parent-wrapper eb-parent-eb-column-v62zddu ">
+                        <div class="eb-column-wrapper eb-column-v62zddu">
+                          <div class="eb-column-inner">
+                            <div class="wp-block-essential-blocks-row alignfull  root-eb-row-9recpm3">
+                              <div class="eb-parent-wrapper eb-parent-eb-row-9recpm3 ">
+                                <div class="eb-row-root-container eb-row-9recpm3" data-id="eb-row-9recpm3">
+                                  <div class="eb-row-wrapper">
+                                    <div class="eb-row-inner">
+                                      <div class="wp-block-essential-blocks-column  root-eb-column-y6aoqv5">
+                                        <div class="eb-parent-wrapper eb-parent-eb-column-y6aoqv5 ">
+                                        <div class="eb-column-wrapper eb-column-y6aoqv5">
+                                        <div class="eb-column-inner">
+                                        <div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-phz4e97">
+                                        <div class="eb-parent-wrapper eb-parent-eb-advance-heading-phz4e97 eb_animation eb___animated eb___fadeIn">
+                                        <div class="eb-advance-heading-wrapper eb-advance-heading-phz4e97 button-1" data-id="eb-advance-heading-phz4e97"><h1 class="eb-ah-title">{{ c.hero.eyebrow.title | safe }}</h1>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-whm5l2i">
+                                        <div class="eb-parent-wrapper eb-parent-eb-advance-heading-whm5l2i eb_animation eb___animated eb___fadeIn">
+                                        <div class="eb-advance-heading-wrapper eb-advance-heading-whm5l2i button-1" data-id="eb-advance-heading-whm5l2i"><h1 class="eb-ah-title">{{ c.hero.title | safe }}</h1>
+                                        <p class="eb-ah-subtitle">{{ c.hero.subtitle | safe }}</p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                      <div class="wp-block-essential-blocks-column  root-eb-column-bdcogf5">
+                                        <div class="eb-parent-wrapper eb-parent-eb-column-bdcogf5 ">
+                                        <div class="eb-column-wrapper eb-column-bdcogf5">
+                                        <div class="eb-column-inner">
+                                        </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-7m6qvjp">
+  <div class="eb-parent-wrapper eb-parent-eb-wrapper-7m6qvjp ">
+    <div class="eb-wrapper-outer eb-wrapper-7m6qvjp">
+      <div class="eb-wrapper-inner">
+        <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+          <div class="wp-block-essential-blocks-advanced-tabs alignwide algomindai_tabmark  root-eb-advanced-tabs-cg12jgf">
+            <div class="eb-parent-wrapper eb-parent-eb-advanced-tabs-cg12jgf eb_animation eb___animated eb___fadeInUp">
+              <div class="eb-advanced-tabs-cg12jgf eb-advanced-tabs-wrapper vertical" data-min-height="true">
+                <div class="eb-tabs-nav">
+                  {#- one tab per research line (data/<lang>/research-lines.json) -#}
+                  <ul class="tabTitles" data-tabs-ul-id="eb-advanced-tabs-cg12jgf">{% for line in collections['research-lines'].lines %}<li data-title-tab-id="{{ loop.index }}" class="{{ 'active' if loop.first else 'inactive' }}"><h6 class="tab-title-text">{{ line.tabTitle | safe }}</h6></li>{% endfor %}
+                  </ul>
+                </div>
+                <div class="eb-tabs-contents">
+                  {#- style ids of the original tab panels; additional lines reuse them in turn -#}
+                  {% set panelIds = ['g4hv7vx', 'a45r5r0', '07ss307', '6ubd7yn', 'qg8s2ak'] %}
+                  {% for line in collections['research-lines'].lines %}
+                  {% set pid = panelIds[loop.index0 % panelIds.length] %}
+                  <div class="eb-tab-wrapper" data-tab-id="{{ loop.index }}" data-tab-parent-id="eb-advanced-tabs-cg12jgf">
+                    <div class="eb-tab-inner">
+                      <div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-{{ pid }}">
+                        <div class="eb-parent-wrapper eb-parent-eb-wrapper-{{ pid }} ">
+                          <div class="eb-wrapper-outer eb-wrapper-{{ pid }}">
+                            <div class="eb-wrapper-inner">
+                              <div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+                                {% include "components/research-line.njk" %}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p></p>
+{% endblock %}

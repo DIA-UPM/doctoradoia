@@ -1,0 +1,661 @@
+{
+  "description": "Actividades formativas del programa (página Formación). Cada actividad se muestra en una pestaña numerada, en este orden.",
+  "activities": [
+    {
+      "slug": "metodologia-de-la-investigacion",
+      "title": "Metodología de la investigación",
+      "tableId": 1,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (seminario)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 10h",
+            "Del alumno: 38h",
+            "Tutoría: 6h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para la elaboración de trabajos de investigación científica en el ámbito de la Inteligencia Artificial."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El seminario se compone de sesiones presenciales sobre metodología de la investigación."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza como un seminario al comienzo de la etapa de investigación doctoral"
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CB12, CB13, CB14, CB15, CB16, CA06, OC1, OC2"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            "<strong>Este seminario es obligatorio para todos los alumnos. </strong>Se recomienda cursarlo durante el primer año."
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos deben entregar un trabajo escrito de uno de los cinco tópicos del seminario que se evalúa.",
+            "Los alumnos tendrán una participación activa en el seminario y deberán realizar exposiciones orales sobre los temas impartidos.",
+            "Calificación del profesor a partir de la interacción con el alumno, el documento entregado y la presentación realizada."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "phd-symposium",
+      "title": "PhD Symposium",
+      "tableId": 2,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (symposium)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 6h",
+            "Del alumno: 14h",
+            "Tutoría: 2h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para la presentación de su trabajo científico en el estado en el que se encuentra en el momento del symposium."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El Simposio de Doctorado de la UPM es una actividad formativa que organiza la Escuela Internacional de Doctorado. Se plantea como una actividad formativa para todos los estudiantes de doctorado de la UPM. Además del objetivo formativo de aprender a hablar en público, con esta actividad se pretende favorecer la colaboración interdisciplinar entre los distintos investigadores y los distintos grupos de investigación de la UPM."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza como un simposio anual, por lo que cualquier estudiante podrá asistir, si lo desea, a varias ediciones, en los distintos estadios de su investigación (cuando menos, tendrá que asistir obligatoriamente a dos ediciones, siendo al menos una como ponente)."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CB13, CB15, OC1"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            "<strong>Todos los alumnos del programa deberán participar en dos ediciones del Symposium.</strong>"
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "La Escuela Internacional de Doctorado emitirá justificantes de asistencia a cada doctorando participante. Será necesario que cada doctorando haga llegar a la CAPD estos certificados, en cada edición del Simposio en la que participe."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talleres-de-investigacion-como-escribir-un-articulo-y-hacer",
+      "title": "Talleres de investigación: cómo escribir un artículo y hacer una presentación",
+      "tableId": 3,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (taller)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 6h",
+            "Del alumno: 14h",
+            "Tutoría: 2h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para la escritura y presentación de su trabajo científico en foros científicos."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El taller consiste en la exposición de técnicas de escritura y presentación de artículos científicos por parte de profesores del programa."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza anualmente, sin restricciones sobre qué alumnos pueden asistir a él. Se recomienda cursarlo durante el primer año."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CB13, CB15, OC1"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "El alumno escribirá un artículo corto en inglés (aproximadamente 6 páginas) relacionado con los trabajos de su Tesis y lo presentará en 5 minutos.",
+            "Calificación del profesor a partir de la interacción con el alumno durante el desarrollo del taller, el documento entregado y la presentación realizada."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talleres-de-investigacion-manejo-de-bbdd-cientificas-y-bibli",
+      "title": "Talleres de investigación: manejo de BBDD científicas y bibliometría",
+      "tableId": 4,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (taller)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 3h",
+            "Del alumno: 7h",
+            "Tutoría: 1h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para el manejo de bases de datos de artículos científicos, así como otros repositorios similares, y para la comprensión sobre aspectos básicos de bibliometría (citas, etc.)"
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El taller consiste en la exposición de técnicas para el acceso y análisis de trabajos en BBDD científicas, y el trabajo en modo de taller sobre un ejemplo concreto."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza anualmente, sin restricciones sobre qué alumnos pueden asistir a él. Se recomienda cursarlo durante el primer año."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CA05, CA06, CB11, CB14, OC1"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos realizarán trabajos concretos de búsqueda, lectura de artículos y análisis bibliométricos, cada uno en la temática en la que realice su Tesis Doctoral.  Entregarán un documento al profesor en el que se detalle el análisis realizado y expondrán los resultados en clase.",
+            "Calificación del profesor a partir de la interacción con el alumno durante el desarrollo del taller, el documento entregado y la presentación realizada."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talleres-de-investigacion-diseno-de-experimentos",
+      "title": "Talleres de investigación: diseño de experimentos",
+      "tableId": 5,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (taller)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 6h",
+            "Del alumno: 14 h",
+            "Tutoría: 2h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para el diseño de experimentos científicos de manera sistemática y adecuada según su campo de trabajo."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El taller consiste en la exposición de técnicas para el diseño de experimentos científicos, y el trabajo en modo de taller sobre un ejemplo concreto."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza anualmente, sin restricciones sobre qué alumnos pueden asistir a él. Se recomienda cursarlo durante el primer o segundo año."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CB12, CB13, CB14, OC1"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos realizarán el diseño de un experimento, cada uno en la temática en la que realice su Tesis Doctoral. Entregarán un documento al profesor en el que se detalle el diseño del experimento y expondrán los resultados en clase.",
+            "Calificación del profesor a partir de la interacción con el alumno durante el desarrollo del taller, el documento entregado y la presentación realizada."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talleres-de-investigacion-como-hacer-un-poster",
+      "title": "Talleres de investigación: ¿Cómo hacer un póster?",
+      "tableId": 6,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (taller)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 3h",
+            "Del alumno: 7h",
+            "Tutoría: 1h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para la creación de un poster que le permita presentar su trabajo en un foro científico."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El taller consiste en la exposición de técnicas para el diseño de posters y el trabajo en modo de taller sobre un ejemplo concreto."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza anualmente, sin restricciones sobre qué alumnos pueden asistir a él. Se recomienda cursarlo durante el primer o segundo año."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CA04, CB15, CA06, OC1"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos realizarán un póster, cada uno en la temática en la que realice su Tesis Doctoral. Entregarán el póster al profesor y lo presentarán en dos minutos.",
+            "Calificación del profesor a partir de la interacción con el alumno durante el desarrollo del taller, el póster entregado y la presentación realizada."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talleres-de-investigacion-gestion-de-proyectos-de-investigac",
+      "title": "Talleres de investigación: Gestión de proyectos de investigación",
+      "tableId": 7,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (taller)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 6h",
+            "Del alumno: 14 h",
+            "Tutoría: 2h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para la gestión de proyectos de I+D+i, incluyendo la identificación de oportunidades, elaboración de memorias de solicitud, coordinación y gestión de proyectos."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El taller consiste en la exposición de técnicas para la identificación de oportunidades de proyecto, elaboración de memorias de proyectos de investigación y coordinación y gestión de proyectos. Se presentarán ejemplos concretos y reales de proyectos de investigación y se discutirán las distintas problemáticas que pueden presentarse durante la ejecución y reporte de un proyecto."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza anualmente, sin restricciones sobre qué alumnos pueden asistir a él. &nbsp;Se recomienda realizar durante el tercer año."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CA02, CA03, CA04, CA06, CB15, CB16, OC2"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos realizarán en grupo la definición de un proyecto de investigación o, a título individual, la definición de una propuesta de investigación para su etapa postdoctoral. La propuesta deberá identificar claramente: programa al que se presenta, estado del arte, proyecto de investigación, planificación temporal de la investigación propuesta y cuantificación de los recursos humanos, materiales y económicos para su ejecución.  Presentarán en clase el trabajo durante 10 minutos.",
+            "Calificación del profesor a partir de la interacción con el alumno durante el desarrollo del taller, el documento entregado y la presentación realizada"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talleres-de-investigacion-proteccion-de-resultados-cientific",
+      "title": "Talleres de investigación: Protección de resultados científicos y Transferencia Tecnológica",
+      "tableId": 8,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividad de formación transversal (taller)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 6h",
+            "Del alumno: 14h",
+            "Tutoría: 2h"
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para la protección de los resultados de investigación y para llevar a cabo acciones de transferencia tecnológica."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El taller consiste en la exposición de técnicas para la protección de resultados de investigación y para llevar a cabo contratos de transferencia tecnológica. Se presentarán ejemplos concretos y reales de protección de resultados de actividades de investigación y de transferencia tecnológica."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Se realiza anualmente, sin restricciones sobre qué alumnos pueden asistir a él. &nbsp;Se recomienda realizar durante el tercer año."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CA01, CA02, CA04, CA06, CB15, CB16, OC2"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ""
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos realizarán a título individual, la identificación de resultados de su tesis doctoral, analizando qué resultados son susceptibles de ser protegidos y/o transferidos. Realizarán un ejemplo de registro de software o patente (según proceda). Presentarán en clase el trabajo durante 5 minutos.",
+            "Calificación del profesor a partir de la interacción con el alumno durante el desarrollo del taller, el documento entregado y la presentación realizada"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "movilidad",
+      "title": "Movilidad",
+      "tableId": 9,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividades de formación transversal (movilidad)"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 0h",
+            "Del alumno: 400h",
+            "Tutoría: 12h",
+            "Esta actividad formativa es de difícil cuantificación, aunque los números que se indican son mínimos."
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para desenvolverse en entornos académicos y científicos, así como para la comunicación con la comunidad académica y científica acerca de sus ámbitos de conocimiento."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "·&nbsp; La Comisión Académica del Programa de Doctorado recomendará y fomentará entre sus doctorandos la realización de estancias en el extranjero de <strong>al menos tres meses</strong> para fomentar la <strong>Mención Internacional </strong>de las Tesis Doctorales defendidas en el Programa.",
+            "·&nbsp; Se recomienda que las estancias en Centros Extranjeros (preferentemente) o Nacionales de reconocido prestigio sean siempre de una duración mínima superior a un mes.",
+            "·&nbsp; El alumno, guiado por su director de Tesis, identificará las actividades de movilidad que mejor se ajusten a sus necesidades en función de los progresos realizados en la Tesis.",
+            "·&nbsp; Es evidente que los estudiantes a tiempo parcial tendrán mermada la movilidad como consecuencia de la compatibilización de actividades profesionales con el Doctorado. Para estos estudiantes, el Programa de Doctorado dará como bueno estancias en laboratorios y departamentos de investigación de empresas que pudieran realizarse o haberse realizado durante los tres años previos a su matriculación en el Programa de Doctorado.",
+            "·&nbsp; Se tendrán en cuenta también las estancias inferiores a 1 mes con el fin de que pueda ir sumando estancias de menor duración."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Esta actividad comenzará como mínimo seis meses después de que el alumno tenga definida la temática de investigación."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CA03, CA04, CA06, CB15, CB16"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés o cualquier idioma dependiendo del país que acoja al estudiante"
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            ". La Universidad Politécnica de Madrid, a través del Vicerrectorado de Relaciones Internacionales e Internacionalización, mantiene activo un sistema de información permanente a través de la <a href=\"http://www.upm.es/institucional/Estudiantes/Movilidad/Programas_Internacionales\" target=\"_blank\" rel=\"noopener\"><br>\nWeb institucional</a>",
+            "·&nbsp; Asimismo, la Escuela Técnica Superior de Ingenieros Informáticos cuenta con una Oficina de Relaciones Externas (OREX) que dispone, entre otras cosas, de un área de movilidad para relaciones con universidades o instituciones nacionales e internacionales, para el desarrollo de la movilidad e intercambios con fines académicos para los alumnos del centro.",
+            "·&nbsp; La Comisión Académica del Programa de Doctorado en Inteligencia Artificial se compromete a participar en las convocatorias públicas de ayuda a la movilidad de alumnos, ofreciendo en muchos casos, de forma adicional o alternativa, la posibilidad de movilidad mediante financiación asociada a los proyectos de investigación en los que participan los grupos de investigación del personal docente e investigador del Programa y en el marco de la relación que éstos tienen con otros grupos de investigación extranjeros."
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "·&nbsp; Informe de la institución de acogida y del investigador responsable.",
+            "·&nbsp; Informe individual del alumno en el que especifique las actividades llevadas a cabo en el marco de la estancia, grado de adecuación de la actividad al programa de doctorado, grado de satisfacción.",
+            "·&nbsp; El director de la tesis mantendrá reuniones periódicas con el alumno por Skype a lo largo de la duración de su estancia. El director de la tesis emitirá un informe al finalizar la estancia.",
+            "·&nbsp; Los alumnos con dedicación parcial que presenten estancias en laboratorios y departamentos de investigación de empresas deberán presentar un informe de su responsable detallando el objeto de la estancia y las acciones llevadas a cabo."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "otras-actividades-formativas-en-las-que-el-alumno-se-tiene-q",
+      "title": "Otras actividades formativas en las que el alumno se tiene que desplazar",
+      "tableId": 10,
+      "details": [
+        {
+          "label": "Tipo",
+          "values": [
+            "Actividades de formación transversal (movilidad)."
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "Presencial: 0 h",
+            "Del alumno: 100 h",
+            "Tutoría: 5h",
+            "Esta actividad formativa es de difícil cuantificación, aunque los números que se indican son mínimos."
+          ]
+        },
+        {
+          "label": "Justificación",
+          "values": [
+            "El objeto de esta actividad es capacitar al alumno para interactuar con la comunidad científica, presentar y defender sus investigaciones."
+          ]
+        },
+        {
+          "label": "Descripción contenidos",
+          "values": [
+            "El alumno, guiado por su director de Tesis, identificará las actividades de movilidad que mejor se ajusten a sus necesidades en función de los progresos realizados en la Tesis Doctoral.",
+            "(1)  Otras estancias inferiores a 1 mes.",
+            "(2) Asistencia a seminarios, conferencias, cursos, talleres de ámbito nacional y preferentemente internacional.",
+            "(3) Asistencia a Tutoriales de conferencias internacionales y a escuelas de verano.",
+            "(4) Asistencia a reuniones de proyectos de investigación."
+          ]
+        },
+        {
+          "label": "Planificación temporal",
+          "values": [
+            "Esta actividad comenzará como mínimo seis meses después de que el alumno tenga definida la temática de investigación."
+          ]
+        },
+        {
+          "label": "Resultados de aprendizaje",
+          "values": [
+            "Se pretenden alcanzar las siguientes competencias: CA03, CA04, CA06, CB15, CB16"
+          ]
+        },
+        {
+          "label": "Lengua",
+          "values": [
+            "Inglés o cualquier idioma dependiendo del país que acoja al estudiante."
+          ]
+        },
+        {
+          "label": "Otras aclaraciones",
+          "values": [
+            "Los grupos de investigación participantes en el Programa de Doctorado juegan un papel fundamental en otras actividades de movilidad.  Los profesores de los grupos colaboran con otros grupos de investigación de otros centros nacionales y/o extranjeros de prestigio, fruto de los cuales, además de haberse realizado publicaciones conjuntas, se ha participado en proyectos conjuntos y se han realizado estancias del profesorado y acogida de alumnos.",
+            "Los proyectos (nacionales, internacionales o privados) asociados a los grupos permiten a los estudiantes de doctorado asistir a conferencias, cursos, talleres y escuelas de verano, así como interactuar con otros investigadores en reuniones de proyectos.",
+            "Son numerosos los alumnos del Programa de Doctorado que colaboran en estos grupos mediante becas asociadas a proyectos de investigación nacionales e internacionales."
+          ]
+        },
+        {
+          "label": "Procedimiento de control",
+          "values": [
+            "Los alumnos deberán presentar un documento justificativo de la asistencia a la actividad realizada, así como una descripción de la actividad llevada a cabo y su adecuación a la tesis doctoral que desarrolla: certificado de asistencia y presentación del artículo en caso de congreso, certificado de asistencia y aptitud de escuela de verano, curso, etc.",
+            "En el caso de estancias cortas, se requerirá además un informe del investigador responsable en la institución destino."
+          ]
+        }
+      ]
+    }
+  ]
+}

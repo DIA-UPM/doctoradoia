@@ -1,0 +1,95 @@
+{#-
+  Base page layout. Every page template extends this file and fills the "content" block.
+  Page variables (see scripts/build/build.mjs):
+    page      the page JSON (data/<lang>/pages/<key>.json)
+    lang      "es" | "en"
+    site      data/site.json
+    menu      navigation model for the current page/language
+    alternates  [{hreflang, href}] links to the translations of this page
+-#}
+{% from "partials/icons.njk" import arrow -%}
+<!DOCTYPE html>
+<html lang="{{ langInfo.htmlLang }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.meta.robots %}<meta name='robots' content='{{ page.meta.robots }}' />
+{% endif -%}
+{% for alt in alternates %}<link rel="alternate" href="{{ alt.absolute }}" hreflang="{{ alt.hreflang }}" />
+{% endfor -%}
+<title>{{ page.meta.title }}</title>
+{% if page.meta.description %}<meta name="description" content="{{ page.meta.description }}" />
+{% endif -%}
+{% if page.meta.canonical %}<link rel="canonical" href="{{ absoluteUrl }}" />
+{% endif -%}
+<meta property="og:locale" content="{{ langInfo.locale }}" />
+{% for l in otherLanguages %}<meta property="og:locale:alternate" content="{{ l.locale }}" />
+{% endfor -%}
+<meta property="og:type" content="{{ page.meta.ogType or 'article' }}" />
+<meta property="og:title" content="{{ page.meta.title }}" />
+{% if page.meta.description %}<meta property="og:description" content="{{ page.meta.description }}" />
+{% endif -%}
+<meta property="og:url" content="{{ absoluteUrl }}" />
+<meta property="og:site_name" content="{{ siteName }}" />
+{% if page.meta.modified %}<meta property="article:modified_time" content="{{ page.meta.modified }}" />
+{% endif -%}
+{% if page.meta.ogImage %}<meta property="og:image" content="{{ site.siteUrl }}{{ page.meta.ogImage.src }}" />
+<meta property="og:image:width" content="{{ page.meta.ogImage.width }}" />
+<meta property="og:image:height" content="{{ page.meta.ogImage.height }}" />
+<meta property="og:image:type" content="{{ page.meta.ogImage.type }}" />
+{% endif -%}
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json">{{ structuredData | dump | safe }}</script>
+{% for css in stylesheets %}<link rel="stylesheet" href="{{ css }}" media="all" />
+{% endfor -%}
+<link rel="icon" href="{{ site.favicon }}" sizes="32x32" />
+<link rel="icon" href="{{ site.favicon }}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{{ site.favicon }}" />
+<meta name="msapplication-TileImage" content="{{ site.favicon }}" />
+</head>
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="{{ bodyClass }}">
+<a
+class="skip-link screen-reader-text"
+href="#content"
+title="{{ menu.skipLinkLabel }}">
+{{ menu.skipLinkLabel }}</a>
+<div
+class="hfeed site" id="page">
+{% include "partials/header.njk" %}
+<div id="content" class="site-content">
+<div class="ast-container">
+{% block main %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article
+class="post-{{ page.wordpressId }} page type-page status-publish ast-article-single" id="post-{{ page.wordpressId }}" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+{% if page.entryTitle %}<header class="entry-header ">
+<h1 class="entry-title" itemprop="headline">{{ page.entryTitle }}</h1>			</header> <!-- .entry-header -->
+{% else %}<header class="entry-header ast-no-title ast-header-without-markup">
+</header> <!-- .entry-header -->
+{% endif %}
+<div class="entry-content clear"
+data-ast-blocks-layout="true" itemprop="text">
+{% block content %}{% endblock %}
+</div><!-- .entry-content .clear -->
+</article><!-- #post-## -->
+</main><!-- #main -->
+</div><!-- #primary -->
+{% endblock %}
+	</div> <!-- ast-container -->
+</div><!-- #content -->
+{% include "partials/mobile-popup.njk" %}
+{% include "partials/footer.njk" %}
+</div><!-- #page -->
+<div id="ast-scroll-top" tabindex="0" role="button" aria-label="{{ menu.scrollTopLabel }}" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both" style="display: none;">
+{{ arrow() }}	<span class="screen-reader-text">{{ menu.scrollTopLabel }}</span>
+</div>
+{% for js in scripts %}<script src="{{ js }}" defer></script>
+{% endfor -%}
+{% block scripts %}{% endblock %}
+{% if collections.system %}<template id="search-form-template">{% include "partials/search-form.njk" %}</template>{% endif %}
+<script id="site-search-config" type="application/json">{{ searchConfig | dump | safe }}</script>
+<script>if (/[?&]s=/.test(location.search)) { var s = document.createElement('script'); s.src = '/assets/js/search.js'; document.body.appendChild(s); }</script>
+{% if devReload %}<script src="/__dev/reload.js"></script>{% endif %}
+</body>
+</html>

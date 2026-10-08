@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "research-lines.schema.json",
+  "title": "Research lines",
+  "description": "Research lines/groups shown as tabs on the research page: data/<lang>/research-lines.json",
+  "type": "object",
+  "required": [
+    "lines"
+  ],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "lines": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "number",
+          "tabTitle",
+          "description",
+          "topicsHeading",
+          "topics",
+          "professorsHeading",
+          "professors",
+          "contactLabel"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "tabTitle": {
+            "type": "string",
+            "description": "Tab label (HTML allowed, e.g. <br>)."
+          },
+          "description": {
+            "type": "string",
+            "description": "HTML paragraphs shown before the topic list."
+          },
+          "topicsHeading": {
+            "type": "string",
+            "description": "HTML heading paragraph of the topic list."
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "professorsHeading": {
+            "type": "string"
+          },
+          "professors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "ids from data/people.json"
+          },
+          "contactLabel": {
+            "type": "string",
+            "description": "Text of the link to the personal page of each professor (contacto / contact)."
+          }
+        }
+      }
+    }
+  }
+}

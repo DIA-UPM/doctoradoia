@@ -1,0 +1,14 @@
+{
+  "extends": ["html-validate:standard"],
+  "rules": {
+    "no-inline-style": "off",
+    "no-trailing-whitespace": "off",
+    "long-title": "off",
+    "attribute-boolean-style": "off",
+    "void-style": "off",
+    "no-redundant-role": "off",
+    "prefer-native-element": "off",
+    "attribute-empty-style": "off",
+    "no-implicit-button-type": "off"
+  }
+}

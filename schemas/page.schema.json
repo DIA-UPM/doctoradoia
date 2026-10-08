@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "page.schema.json",
+  "title": "Page",
+  "description": "One page in one language: data/<lang>/pages/<key>.json. The file name (<key>) links the translations of a page and selects the template src/templates/pages/<key>[.<lang>].njk.",
+  "type": "object",
+  "required": [
+    "path",
+    "wordpressId",
+    "meta",
+    "content"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "path": {
+      "type": "string",
+      "pattern": "^/([a-z0-9_-]+/)*$",
+      "description": "Public URL path of the page (same as on the original site), with trailing slash."
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the page on the original WordPress site (informative)."
+    },
+    "wordpressId": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Original WordPress post id. Kept because the theme CSS uses it (body class page-id-N, article id post-N). Do not change it for migrated pages; use any unused number for new pages."
+    },
+    "isHome": {
+      "type": "boolean",
+      "description": "true for the home page of the language."
+    },
+    "bodyClass": {
+      "type": "string",
+      "description": "Extra CSS classes for <body> (rarely needed)."
+    },
+    "template": {
+      "type": "string",
+      "description": "Optional template path relative to src/templates (default: pages/<key>.<lang>.njk or pages/<key>.njk)."
+    },
+    "entryTitle": {
+      "type": "string",
+      "description": "Visible WordPress page title (<h1 class=entry-title>) shown above the content. Only the contact page used it on the original site."
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "title"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "<title> and og:title."
+        },
+        "description": {
+          "type": "string"
+        },
+        "robots": {
+          "type": "string",
+          "description": "Content of <meta name=robots>, e.g. 'noindex, nofollow' (as on the original site)."
+        },
+        "canonical": {
+          "type": "boolean"
+        },
+        "ogType": {
+          "type": "string",
+          "enum": [
+            "website",
+            "article"
+          ]
+        },
+        "ogImage": {
+          "type": "object",
+          "required": [
+            "src"
+          ],
+          "properties": {
+            "src": {
+              "type": "string"
+            },
+            "width": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            }
+          }
+        },
+        "published": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modified": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "breadcrumb": {
+          "type": "string",
+          "description": "Name of the page in the breadcrumb structured data."
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "description": "Page texts. The fields depend on the page template (see docs/content-model.md)."
+    }
+  }
+}

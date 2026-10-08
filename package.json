@@ -1,0 +1,44 @@
+{
+  "name": "doctoradoia-static",
+  "version": "1.0.0",
+  "description": "Static version of the Doctorado en Inteligencia Artificial (UPM) website, content in JSON",
+  "scripts": {
+    "crawl": "node scripts/crawl/crawl.mjs",
+    "baseline": "node tests/visual/capture-baseline.mjs",
+    "build": "node scripts/build/build.mjs",
+    "serve": "node scripts/build/serve.mjs",
+    "test:visual": "node tests/visual/visual-regression.mjs",
+    "validate": "node scripts/validation/validate.mjs",
+    "dev": "node scripts/build/dev.mjs",
+    "check-links": "node scripts/validation/check-links.mjs",
+    "docs:documents": "node scripts/validation/documents-inventory.mjs",
+    "docs:urls": "node scripts/validation/url-inventory.mjs",
+    "test": "npm run validate && npm run build && npm run check-links && playwright test",
+    "test:functional": "playwright test",
+    "validate:html": "html-validate \"dist/**/*.html\"",
+    "test:a11y": "node tests/a11y/compare-a11y.mjs",
+    "test:subpath": "node tests/subpath/check-subpath.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "cheerio": "^1.2.0",
+    "html-validate": "^11.16.2",
+    "nunjucks": "^3.2.4",
+    "pixelmatch": "^8.0.0",
+    "playwright": "^1.63.0",
+    "pngjs": "^7.0.0",
+    "postcss": "^8.5.29",
+    "purgecss": "^8.0.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

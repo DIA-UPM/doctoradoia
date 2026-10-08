@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "site.schema.json",
+  "title": "Site",
+  "description": "Global settings: languages, site name, header and footer: data/site.json",
+  "type": "object",
+  "required": [
+    "siteUrl",
+    "defaultLanguage",
+    "languages",
+    "siteName",
+    "favicon",
+    "header",
+    "footer"
+  ],
+  "properties": {
+    "siteUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://[^/]+$",
+      "description": "Public origin without trailing slash (used for OpenGraph, hreflang and sitemaps)."
+    },
+    "defaultLanguage": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "locale",
+          "htmlLang",
+          "hreflang",
+          "name",
+          "flag",
+          "pathPrefix"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[a-z]{2}$"
+          },
+          "locale": {
+            "type": "string"
+          },
+          "htmlLang": {
+            "type": "string"
+          },
+          "hreflang": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "flag": {
+            "type": "string"
+          },
+          "pathPrefix": {
+            "type": "string",
+            "pattern": "^/([a-z0-9_-]+/)*$",
+            "description": "URL prefix of the language (\"/\" for Spanish, \"/language/en/\" for English). The 404 page of the language is written there."
+          }
+        }
+      }
+    },
+    "siteName": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "siteDescription": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "favicon": {
+      "type": "string"
+    },
+    "header": {
+      "type": "object",
+      "required": [
+        "logo",
+        "programmeTitle"
+      ],
+      "properties": {
+        "logo": {
+          "type": "string"
+        },
+        "programmeTitle": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "footer": {
+      "type": "object",
+      "required": [
+        "logo",
+        "address",
+        "copyright",
+        "poweredBy"
+      ],
+      "properties": {
+        "logo": {
+          "type": "string"
+        },
+        "campusLogo": {
+          "type": "object",
+          "required": [
+            "src",
+            "alt"
+          ],
+          "properties": {
+            "src": {
+              "type": "string"
+            },
+            "alt": {
+              "type": "string"
+            }
+          }
+        },
+        "address": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "mapEmbedUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "mapTitle": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "copyright": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "{year} is replaced by the current year at build time."
+        },
+        "poweredBy": {
+          "type": "object",
+          "required": [
+            "label",
+            "url"
+          ],
+          "properties": {
+            "label": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    }
+  }
+}

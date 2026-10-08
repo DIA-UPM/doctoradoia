@@ -1,0 +1,91 @@
+{
+  "path": "/actividades_formativas/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/actividades_formativas/",
+  "wordpressId": 102,
+  "meta": {
+    "title": "Actividades Formativas - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2021-01-12T12:06:01+00:00",
+    "modified": "2025-12-12T11:14:40+00:00",
+    "breadcrumb": "Actividades Formativas"
+  },
+  "content": {
+    "hero": {
+      "title": "Actividades formativas del Doctorado en Inteligencia Artificial",
+      "subtitle": "Formación Transversal"
+    },
+    "intro": {
+      "body": "<p class=\"has-ast-global-color-5-color has-text-color has-link-color wp-elements-56062e406e86f38031a12f5173749098\">Las actividades formativas del programa -que son <strong>obligatorias para todos los doctorandos</strong>-, son las que se relacionan en el listado que se encuentra más abajo.</p>\n<p class=\"has-ast-global-color-5-color has-text-color has-link-color wp-elements-efca51cd9ab617df6f0c426c30c96667\">(*) <strong>Obtener informe favorable de las actividades formativas del programa es un requisito para poder defender la tesis doctoral. Para obtenerlo, es necesario haber participado y obtenido la calificación de “apto” al menos en el 80% de las mismas (es decir, en ocho de ellas), siempre y cuando las actividades formativas cursadas permitan el alcance de todas las competencias indicadas en la memoria de verificación del título que van asociadas a las Actividades Formativas (estas competencias se pueden <a href=\"/wp-content/uploads/sites/8/2017/07/7dCompetencias.xlsx\" target=\"_blank\" rel=\"noreferrer noopener\">consultar aquí</a></strong><strong>.</strong></p>"
+    },
+    "schedule": {
+      "intro": "<p class=\"has-white-color has-text-color has-link-color wp-elements-4c0af680fb34331f5480666dbf1bce42\" style=\"padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)\">Las <strong>fechas, horarios y aulas</strong> de las <strong>Actividades Formativas para el curso 2024-25</strong>, están disponibles en la siguiente tabla:</p>",
+      "tableId": 29,
+      "columns": [
+        "",
+        "Actividad",
+        "Profesores",
+        "Presencial",
+        "Fecha: hora"
+      ],
+      "rows": [
+        [
+          "A1",
+          "Metodología de la investigación",
+          "<a href=\"https://dssc.fi.upm.es/verSeminario.php?seminario=210&amp;lang=1&amp;plan=1&amp;actividad=1\" target=\"_blank\" rel=\"noopener\">Andrés Silva (DSSC)</a>",
+          "<a href=\"https://dssc.fi.upm.es/verSeminario.php?seminario=210&amp;lang=1&amp;plan=1&amp;actividad=1\" target=\"_blank\" rel=\"noopener\">Información</a>",
+          "2026:<br>\n14 de octubre, 17:00-19:00<br>\n21 de octubre, 17:00-19:00<br>\n28 de octubre, 17:00-19:00<br>\n04 de noviembre, 17:00-19:00<br>\n11 de noviembre, 17:00-19:00<br>\n18 de noviembre, 17:00-19:00<br>\n25 de noviembre, 17:00-19:00<br>\n02 de diciembre, 17:00-19:00"
+        ],
+        [
+          "A2",
+          "PhD Symposium",
+          "Organizada por EID-UPM",
+          "Organizada por EID-UPM",
+          ""
+        ],
+        [
+          "A3",
+          "Talleres de investigación: cómo escribir un artículo y hacer una presentación",
+          "Víctor Maojo García,<br>\nAlfonso Rodríguez-Patón, <br>\nJelena Bobkina y<br>\nElena Montiel",
+          "TBD<br>",
+          "TBD<br>"
+        ],
+        [
+          "A4",
+          "Taleres de investigación:manejo de BBDD científicas bibliometria",
+          "Roberto Valle",
+          "TBD<br>",
+          "TBD<br>"
+        ],
+        [
+          "A5",
+          "Taleres de investigación: diseño de experimentos",
+          "Oscar Corcho,<br>\nVíctor Maojo García<br>",
+          "TBD<br>",
+          "TBD<br>"
+        ],
+        [
+          "A6",
+          "Talleres de investigación: ¿Cómo hacer un póster?",
+          "Daniel Garijo",
+          "TBD<br>",
+          "TBD<br>"
+        ],
+        [
+          "A7",
+          "Talleres de investigación: Gestión de proyectos de investigación",
+          "TBD",
+          "TBD<br>",
+          "TBD<br>"
+        ],
+        [
+          "A8",
+          "Talleres de investigación: Protección de resultados científicos y Transferencia Tecnológica",
+          "Angélica de Antonio",
+          "TBD<br>",
+          "TBD<br>"
+        ]
+      ]
+    }
+  }
+}

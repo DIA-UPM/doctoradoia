@@ -1,0 +1,17 @@
+{#-
+  Content of one research line tab.
+  Variable: line = record of data/<lang>/research-lines.json; professors are looked up in data/people.json.
+-#}
+{{ line.description | safe }}
+{{ line.topicsHeading | safe }}
+<ul class="wp-block-list">
+{% for t in line.topics %}<li>{{ t | safe }}</li>
+{% endfor -%}
+</ul>
+{{ line.professorsHeading | safe }}
+<ul class="wp-block-list">
+{% for id in line.professors -%}
+{%- set p = peopleById[id] -%}
+<li><a href="{{ p.portalUrl }}" target="_blank" rel="noreferrer noopener">{{ p.name }}</a> {% if p.contactUrl %}(<a href="{{ p.contactUrl }}" target="_blank" rel="noreferrer noopener">{{ line.contactLabel }}</a>) {% endif %}{% if p.category %}({{ p.category }}){% endif %}</li>
+{% endfor -%}
+</ul>

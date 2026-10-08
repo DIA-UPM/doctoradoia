@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "system.schema.json",
+  "title": "System pages",
+  "description": "Texts of the 404 page and of the search results: data/<lang>/system.json",
+  "type": "object",
+  "required": ["notFound", "searchForm", "searchResults"],
+  "properties": {
+    "description": { "type": "string" },
+    "notFound": {
+      "type": "object",
+      "required": ["title", "heading", "text"],
+      "additionalProperties": false,
+      "properties": { "title": { "type": "string" }, "heading": { "type": "string" }, "text": { "type": "string" } }
+    },
+    "searchForm": {
+      "type": "object",
+      "required": ["label", "placeholder", "button", "buttonLabel"],
+      "additionalProperties": false,
+      "properties": { "label": { "type": "string" }, "placeholder": { "type": "string" }, "button": { "type": "string" }, "buttonLabel": { "type": "string" } }
+    },
+    "searchResults": {
+      "type": "object",
+      "required": ["title", "heading", "readMore", "noResults"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "pattern": "\\{query\\}", "description": "Document title; {query} is replaced by the searched words." },
+        "heading": { "type": "string" },
+        "readMore": { "type": "string" },
+        "noResults": { "type": "string" }
+      }
+    }
+  }
+}

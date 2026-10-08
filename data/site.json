@@ -1,0 +1,74 @@
+{
+  "siteUrl": "https://doctoradoia.dia.fi.upm.es",
+  "defaultLanguage": "es",
+  "languages": [
+    {
+      "code": "es",
+      "pathPrefix": "/",
+      "locale": "es_ES",
+      "htmlLang": "es-ES",
+      "hreflang": "es",
+      "name": "Español",
+      "flag": "/assets/images/flags/es.png"
+    },
+    {
+      "code": "en",
+      "pathPrefix": "/language/en/",
+      "locale": "en_US",
+      "htmlLang": "en-US",
+      "hreflang": "en",
+      "name": "English",
+      "flag": "/assets/images/flags/en.png"
+    }
+  ],
+  "siteName": {
+    "es": "Doctorado en Inteligencia Artificial",
+    "en": "Doctorado en Inteligencia Artificial"
+  },
+  "siteDescription": {
+    "es": "Sitio del Doctorado en IA",
+    "en": "Sitio del Doctorado en IA"
+  },
+  "favicon": "/assets/images/logo-dia-actualizado.svg",
+  "header": {
+    "logo": "/assets/images/Logo-conjunto-dia-ets-upm5x.svg",
+    "programmeTitle": {
+      "es": "Programa de Doctorado en Inteligencia Artificial",
+      "en": "Programa de Doctorado en Inteligencia Artificial"
+    }
+  },
+  "footer": {
+    "logo": "/assets/images/Logo-conjunto-dia-ets-upm5x.svg",
+    "campusLogo": {
+      "src": "/assets/images/logo_i2tech.png",
+      "alt": "Campus Montegancedo"
+    },
+    "address": {
+      "es": [
+        "Escuela Técnica Superior de Ingenieros Informáticos",
+        "Universidad Politécnica de Madrid",
+        "C. de los Ciruelos",
+        "28660 Boadilla del Monte, Madrid, España"
+      ],
+      "en": [
+        "Escuela Técnica Superior de Ingenieros Informáticos",
+        "Universidad Politécnica de Madrid",
+        "C. de los Ciruelos",
+        "28660 Boadilla del Monte, Madrid, España"
+      ]
+    },
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.173373261715!2d-3.842093922684329!3d40.40500987144149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4185f258e5eec5%3A0xdf7b007bb6904fa5!2sEscuela%20T%C3%A9cnica%20Superior%20de%20Ingenieros%20Inform%C3%A1ticos%20de%20la%20Universidad%20Polit%C3%A9cnica%20de%20Madrid!5e0!3m2!1ses!2ses!4v1702397840978!5m2!1ses!2ses",
+    "mapTitle": {
+      "es": "Mapa: Escuela Técnica Superior de Ingenieros Informáticos de la Universidad Politécnica de Madrid",
+      "en": "Map: Escuela Técnica Superior de Ingenieros Informáticos de la Universidad Politécnica de Madrid"
+    },
+    "copyright": {
+      "es": "Copyright © {year} Doctorado en Inteligencia Artificial | Powered by",
+      "en": "Copyright © {year} Doctorado en Inteligencia Artificial | Powered by"
+    },
+    "poweredBy": {
+      "label": "Sasover",
+      "url": "http://sasover.com"
+    }
+  }
+}

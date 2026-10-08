@@ -1,0 +1,42 @@
+{
+  "path": "/informacion/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/informacion/",
+  "wordpressId": 61,
+  "meta": {
+    "title": "Información y enlaces de interés - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:59:40+00:00",
+    "modified": "2026-07-06T12:41:17+00:00",
+    "breadcrumb": "Información y enlaces de interés"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": ""
+      },
+      "title": "Información adicional",
+      "subtitle": ""
+    },
+    "resources": {
+      "tabs": [
+        "Información proporcionada por la universidad",
+        "Normativa de doctorado",
+        "Información sobre la implementación  y desarrollo del título",
+        "<a href=\"/wp-content/uploads/sites/8/2023/12/Repositorio-tesis-RD99_2011-v1r.xlsx\">Tesis doctorales defendidas en el programa (desarrollado bajo el RD 99/2011)</a>",
+        "<a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Tesis/Impresos\" target=\"_blank\" rel=\"noreferrer noopener\">Impresos relacionados con la elaboración y defensa de la tesis</a>"
+      ],
+      "panels": [
+        {
+          "body": "<ul class=\"wp-block-list\">\n<li><a href=\"/wp-content/uploads/sites/8/2019/05/informe_definitivo_40181.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Información a nuevos estudiantes</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/preguntas_frecuentes\" target=\"_blank\" rel=\"noreferrer noopener\">Preguntas frecuentes relativas al Doctorado en la UPM</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/BecasAyudasPremios\" target=\"_blank\" rel=\"noreferrer noopener\">Becas, Ayudas y Premios</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas\" target=\"_blank\" rel=\"noreferrer noopener\">Ayudas para la realización del doctorado</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/Movilidad\" target=\"_blank\" rel=\"noreferrer noopener\">Movilidad. Programas de Intercambio</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/Atencion\" target=\"_blank\" rel=\"noreferrer noopener\">Atención al Alumno</a></li>\n<li><a href=\"https://www.upm.es/Estudiantes/EmpleoPracticas\" target=\"_blank\" rel=\"noreferrer noopener\">Empleo y prácticas</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/ActividadesDeportivas\" target=\"_blank\" rel=\"noreferrer noopener\">Actividades Deportivas</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/CompromisoSocial\" target=\"_blank\" rel=\"noreferrer noopener\">Compromiso Social</a></li>\n<li><a href=\"http://www.upm.es/Estudiantes/Seguros\" target=\"_blank\" rel=\"noreferrer noopener\">Seguros</a></li>\n</ul>"
+        },
+        {
+          "body": "<ul class=\"wp-block-list\">\n<li><a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/normativa\">Normativa y Legisla</a><a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/normativa\" target=\"_blank\" rel=\"noreferrer noopener\">c</a><a href=\"http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/normativa\">ión de Doctorado</a></li>\n<li><a href=\"/documents/upm/Guia-de-buenas-practicas-junio-2017.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Guía de buenas prácticas</a></li>\n</ul>"
+        },
+        {
+          "body": "<p><strong><a href=\"/wp-content/uploads/sites/8/2024/05/9_Renov-acredit_resolucion-ConsejoUniversidades.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Renovación de la acreditación del título_Resolución</a></strong></p>\n<p><strong><a href=\"/wp-content/uploads/sites/8/2024/05/7_Informe-autoevaluacion-renovac-acredit.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Renovación de la acreditación del título_Informe de autoevaluación presentado</a></strong></p>\n<p><strong><a href=\"https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&amp;codigoTipo=D&amp;CodigoEstudio=5600401&amp;actual=estudios\" target=\"_blank\" rel=\"noreferrer noopener\">Registro de Universidades, Centros y Títulos, con la información correspondiente al Programa</a></strong></p>\n<p><a href=\"/wp-content/uploads/sites/8/2024/05/3_Resol-verific-consejo-universidades_25-07-13.pdf\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Verificación del título_Resolución de verificación por parte del Consejo de Universidades (Ministerio de Educación, Cultura y Deporte)</strong></a> (Fecha de implantación curso 2013-2014)</p>\n<p><strong>Verificación del título_Evaluación realizada por la ANECA</strong></p>\n<p><strong><a href=\"/wp-content/uploads/sites/8/2024/05/1_MemoVerificada.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Verificación del título_Memoria verificada</a></strong></p>\n<p><a href=\"/wp-content/uploads/sites/8/2026/07/ANX_PR-ES-007_01-Informe-seguimiento-PDIA-final.pdf\">Informe de seguimiento curso 2023-2024</a></p>\n<p><a href=\"/wp-content/uploads/sites/8/2026/07/ANX_PR-ES-007_01-Informe-seguimiento-PDIA-2024-2025.pdf\">Informe de seguimiento curso 2024-2025</a></p>"
+        }
+      ]
+    }
+  }
+}

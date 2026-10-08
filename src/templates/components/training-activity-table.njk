@@ -1,0 +1,21 @@
+{#-
+  One training activity as a TablePress table (same markup/classes as the original plugin).
+  Variable: a = record from data/<lang>/training-activities.json
+  A row with several values spans several table rows (rowspan), as on the original site.
+-#}
+{%- set r = 1 -%}
+<table id="tablepress-{{ a.tableId }}" class="tablepress tablepress-id-{{ a.tableId }}">
+<tbody>
+<tr class="row-1">
+<td colspan="2" class="column-1">{{ a.title | safe }}</td>
+</tr>
+{% for d in a.details -%}
+{% for v in d.values -%}
+{%- set r = r + 1 -%}
+<tr class="row-{{ r }}">
+{% if loop.first %}<td{% if d.values.length > 1 %} rowspan="{{ d.values.length }}"{% endif %} class="column-1">{{ d.label | safe }}</td>{% endif %}<td class="column-2">{{ v | safe }}</td>
+</tr>
+{% endfor -%}
+{% endfor -%}
+</tbody>
+</table>

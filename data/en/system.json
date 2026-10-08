@@ -1,0 +1,20 @@
+{
+  "description": "Texts of the system pages: 404 page and search results (/language/en/?s=...). Copied from the original site.",
+  "notFound": {
+    "title": "Página no encontrada - Doctorado en Inteligencia Artificial",
+    "heading": "This page doesn't seem to exist.",
+    "text": "It looks like the link pointing here was faulty. Maybe try searching?"
+  },
+  "searchForm": {
+    "label": "Search for:",
+    "placeholder": "Search...",
+    "button": "Search",
+    "buttonLabel": "Search Submit"
+  },
+  "searchResults": {
+    "title": "Has buscado {query} - Doctorado en Inteligencia Artificial",
+    "heading": "Search Results for:",
+    "readMore": "Read More »",
+    "noResults": "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "path": "/language/en/academic-commission/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/academic-commission/",
+  "wordpressId": 80,
+  "meta": {
+    "title": "Academic Commission - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:58:03+00:00",
+    "modified": "2024-05-10T20:49:46+00:00",
+    "breadcrumb": "Academic Commission"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": ""
+      },
+      "title": "Academic committee and quality",
+      "subtitle": ""
+    },
+    "main": {
+      "body": "<h2 class=\"wp-block-heading has-ast-global-color-3-color has-text-color has-link-color wp-elements-12ad3f21645814897b8f6302868b1042\">Academic committee</h2>\n<p>The composition and functions of the Academic Committee of the PhD Programme are established in articles 4 and 5 of the <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Impresos/Modelo_Doctorado_RD_99_2011_UPM.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">PhD model of the Polytechnique University of Madrid</a></p>\n<p>The Academic committee of the PhD Programme in Artificial Intelligence (CAPDIA) is presided over by the Programme Coordinator and composed of the UPM professors participating in the programme.</p>\n<p>Currently, the composition of CAPDIA can be seen in this<strong> </strong><a href=\"/wp-content/uploads/sites/8/2023/12/miembros-de-la-CAPDIA.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">file</a>.</p>\n<h2 class=\"wp-block-heading has-ast-global-color-3-color has-text-color has-link-color wp-elements-e897edcb6e370fdc7e33bfaac1a7edf1\">Quality system</h2>\n<p>The ETSII’s Internal Quality Assurance System (SAIC) is designed according to the guidelines of the AUDIT programme and with the collaboration of the Vice-rectorate for Quality and Efficiency of the UPM.</p>\n<ul class=\"wp-block-list\" style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0\">\n<li><strong><a href=\"https://www.upm.es/UPM/Calidad\" target=\"_blank\" rel=\"noreferrer noopener\">Quality at the UPM</a> </strong></li>\n<li><a href=\"https://www.fi.upm.es/?id=politicacalidad\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Internal Quality Assurance System (ETSII)</strong></a></li>\n<li><a href=\"https://www.fi.upm.es/?pagina=1695\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Quality Committee (ETSII)  </strong></a></li>\n<li><a href=\"https://www.fi.upm.es/?pagina=1429\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Technical Quality Unit (ET</strong>SII)</a></li>\n<li><a href=\"http://www.fi.upm.es/?pagina=441\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Deputy Director of Quality and Accreditation (ETSII)</strong></a></li>\n</ul>"
+    }
+  }
+}

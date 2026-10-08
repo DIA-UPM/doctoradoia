@@ -1,0 +1,42 @@
+{
+  "path": "/language/en/contact/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/contact/",
+  "wordpressId": 1750,
+  "bodyClass": "ast-normal-title-enabled",
+  "entryTitle": "Contact",
+  "meta": {
+    "title": "Contact - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "ogImage": {
+      "src": "/assets/images/166_accesoCampusMontegancedoUPM.jpeg"
+    },
+    "published": "2023-12-07T20:57:11+00:00",
+    "modified": "2026-02-26T16:04:02+00:00",
+    "breadcrumb": "Contact"
+  },
+  "content": {
+    "heading": {
+      "title": "Contact and Access Directions <br>"
+    },
+    "directions": {
+      "body": "<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color wp-elements-9c1bb07b1a8871a3a2910856bc988e62\" style=\"font-size:18px;font-style:normal;font-weight:300\"><strong>The school is located on</strong> the Montegancedo Campus, which is part of the UPM, within a residential area called Urbanización Montepríncipe. This area is situated on the outskirts of a small residential village named Boadilla del Monte, located approximately 7 km southwest of Madrid.<br><br><strong>Once you have accessed the Campus:</strong> You will encounter three buildings, one white and two green. Our offices are located in the larger green building (block 2). The Doctoral Program Secretary’s Office is in room D-2213. <br><br><strong>Contacto:</strong> <br>Department of Artificial Intelligence<br>School of Computer Engineering<br>Universidad Politécnica de Madrid<br>28660 Boadilla del Monte, Madrid, España</h2>",
+      "image": "/assets/images/166_accesoCampusMontegancedoUPM.jpeg",
+      "imageAlt": ""
+    },
+    "contacts": [
+      {
+        "body": "<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color wp-elements-e968db7df4998957c04a7d5987f37a0f\" style=\"font-size:18px;font-style:normal;font-weight:300\"><strong>Administrative secretary:  </strong><br>Email: <a href=\"mailto:raul.colado@upm.es\" target=\"_blank\" rel=\"noreferrer noopener\"></a><a href=\"mailto:doctorado.dia@fi.upm.es\" target=\"_blank\" rel=\"noreferrer noopener\">doctorado.dia@fi.upm.es</a><strong>  </strong><strong>  </strong></h2>"
+      },
+      {
+        "body": "<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color wp-elements-3237b7f9191fb7522562c20ffcb230ce\" style=\"font-size:18px;font-style:normal;font-weight:300\"><strong>Academic secretary:</strong>  <br>Dña. María Poveda Villalón<br>Desk: 3205 <br>Phone: +34 910672889 <br>Email: <a href=\"mailto:mpoveda@fi.upm.es\" target=\"_blank\" rel=\"noreferrer noopener\">mpoveda@fi.upm.es</a></h2>"
+      },
+      {
+        "body": "<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color wp-elements-5fd0c7e3ab3bc3782c2c84115647d878\" style=\"font-size:18px;font-style:normal;font-weight:300\"><strong>Coordinator:   </strong><br>D. Victor Rodríguez Doncel<br>Desk: 2205 <br>Phone: +34 910672890 <br>Email: <a href=\"mailto:mgremesal@fi.upm.es\" target=\"_blank\" rel=\"noreferrer noopener\">vrodriguez@fi.upm.es</a></h2>"
+      },
+      {
+        "body": "<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color wp-elements-d9fbb1f0386a6b8cab5ac6cf49d3ac66\" style=\"font-size:18px;font-style:normal;font-weight:300\"><strong>Programme e-mail:  </strong><br><a href=\"mailto:doctorado.dia@fi.upm.es\" target=\"_blank\" rel=\"noreferrer noopener\">doctorado.dia@fi.upm.es</a><strong>  </strong></h2>"
+      }
+    ]
+  }
+}

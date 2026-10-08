@@ -1,0 +1,10 @@
+{
+  "description": "Visual differences with the live site that are intentional. Each entry is shown in the report as 'expected' with its reason instead of failing the test. Classification: A = expected/harmless.",
+  "differences": [
+    {
+      "pattern": "^search(-empty)?-(es|en)-",
+      "class": "A",
+      "reason": "Search results: the WordPress template printed an author line ('Por jcano') under each result, linking to author archives that expose editor user names. It was intentionally not reproduced, so every result is ~36 px shorter."
+    }
+  ]
+}

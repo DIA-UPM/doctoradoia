@@ -1,0 +1,4 @@
+{
+  "description": "Known problems of the original website that were deliberately kept unchanged. Each entry silences one validator/link-checker error and is listed as a warning instead. (Empty: the pre-existing broken links were fixed, see docs/migration-report.md.)",
+  "urls": []
+}

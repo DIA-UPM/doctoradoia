@@ -1,0 +1,86 @@
+{#-
+  Site header (Astra header builder markup): desktop header, mobile header and the
+  sticky copy shown after scrolling (#ast-fixed-header, driven by src/js/header.js).
+  Texts/logos come from data/site.json and data/navigation.json.
+-#}
+
+{% from "partials/menu.njk" import mainMenu %}
+
+{% macro branding() -%}
+<div
+class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"				>
+{#- the site only defines a logo for the transparent header: pages without it (404, search) show none, as on the original -#}
+<span class="site-logo-img">{% if not opaqueHeader %}<a href="{{ homeUrl }}" class="custom-logo-link transparent-custom-logo" rel="home" itemprop="url" aria-label="{{ siteName }}"><img width="1" height="1" src="{{ site.header.logo }}" class="astra-logo-svg" alt="" decoding="async" /></a>{% endif %}</span>				</div>
+<!-- .site-branding -->
+{%- endmacro %}
+
+{% macro desktopHeader(sticky) -%}
+{%- from "partials/icons.njk" import menuIcon, closeIcon -%}
+{%- from "partials/menu.njk" import mainMenu -%}
+<div id="ast-desktop-header" data-toggle-type="off-canvas">
+<div class="ast-main-header-wrap main-header-bar-wrap ">
+<div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item" data-section="section-primary-header-builder">
+<div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-primary-header-builder">
+<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+{{ branding() }}
+</div>
+</div>
+<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+<div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
+<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation-desktop{% if sticky %}-sticky{% endif %}" aria-label="{{ menu.ariaLabel }}" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1{% if sticky %}-sticky{% endif %}" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border stack-on-mobile ast-mega-menu-enabled">{{ mainMenu(menu, 'plain' if sticky else 'header') }}</ul></div></nav></div></div>		</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ast-below-header-wrap  ">
+<div class="ast-below-header-bar ast-below-header  site-header-focus-item" data-section="section-below-header-builder">
+<div class="site-below-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-below-header-builder">
+<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+<div class="site-header-below-section-left site-header-section ast-flex site-header-section-left">
+<div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-html-1" data-section="section-hb-html-1">
+<div class="ast-header-html inner-link-style-"><div class="ast-builder-html-element"><h1 style="font-family: 'Syne', sans-serif;font-weight: normal;font-size: 13.9pt;color: transparent;border-radius: 3px;padding: 0 12px;line-height: 29px"><span style="color: #ffffff">{{ site.header.programmeTitle[lang] }}</span></h1>
+</div></div>		</div>
+</div>
+<div class="site-header-below-section-right site-header-section ast-flex ast-grid-right-section">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> <!-- Main Header Bar Wrap -->
+<div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="off-canvas">
+<div class="ast-main-header-wrap main-header-bar-wrap" >
+<div class="ast-primary-header-bar ast-primary-header main-header-bar site-primary-header-wrap site-header-focus-item ast-builder-grid-row-layout-default ast-builder-grid-row-tablet-layout-default ast-builder-grid-row-mobile-layout-default" data-section="section-transparent-header">
+<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+{{ branding() }}
+</div>
+</div>
+<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="section-header-mobile-trigger">
+<div class="ast-button-wrap">
+<button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-fill"   aria-expanded="false" aria-controls="ast-mobile-popup">
+<span class="screen-reader-text">{{ menu.mobileToggleLabel }}</span>
+<span class="mobile-menu-toggle-icon">
+<span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline">{{ menuIcon() }}</span><span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline">{{ closeIcon() }}</span>					</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+{%- endmacro %}
+
+<header
+class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead"		>
+{{ desktopHeader(false) }}
+<header id="ast-fixed-header" class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" style="visibility: hidden;" data-type="fixed-header">
+{{ desktopHeader(true) }}
+</header><!-- #astra-fixed-header -->
+</header><!-- #masthead -->

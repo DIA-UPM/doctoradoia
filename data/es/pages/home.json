@@ -1,0 +1,176 @@
+{
+  "path": "/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/",
+  "wordpressId": 28,
+  "isHome": true,
+  "meta": {
+    "title": "Presentación - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "ogImage": {
+      "src": "/assets/images/Foto-grupo-de-investigacion-scaled.jpeg"
+    },
+    "published": "2017-07-24T05:44:22+00:00",
+    "modified": "2024-09-03T14:08:31+00:00",
+    "breadcrumb": "Portada"
+  },
+  "content": {
+    "hero": {
+      "researchLines": [
+        {
+          "title": "1. Aplicaciones de la Inteligencia<br>Artificial",
+          "subtitle": "Informática médica<br>Bioinformática<br>Hidroinformática<br>Neurociencia<br>Web Semántica<br>Internet del Futuro<br>Nanoinformática"
+        },
+        {
+          "title": "2. Computación<br> Natural",
+          "subtitle": "Computación Natural<br>Computación bio-inspirada<br>Computación Evolutiva<br>Biología Sintética<br>Ingeniería de sistemas biológicos<br>Biología de sistemas<br>Computación biomolecular<br>Computación con ADN<br>Programación celular"
+        },
+        {
+          "title": "3. Percepción, Manipulación y Comunicación",
+          "subtitle": "Interacción hombre-máquina<br>Robótica móvil, sistemas multi-robot y multi-componente<br>Control avanzado<br>Modelos cognitivos y bioinspirados<br>Procesamiento de imágenes y visión por computador<br>Recursos lingüísticos<br>Traducción automática<br>Recuperación y extracción de información<br>Ingeniería Lingüística<br>Sistemas pregunta-respuesta"
+        },
+        {
+          "title": "4. Inteligencia Computacional<br>Artificial",
+          "subtitle": "Aprendizaje automático<br>Redes Bayesianas<br>Teoría de la decisión<br>Optimización multiobjetivo<br>Selección de variables<br>Heurísticos de optimización<br>Algoritmos de estimación de distribuciones"
+        },
+        {
+          "title": "5. Representación del Conocimiento y Razonamiento",
+          "subtitle": "Ingeniería ontológica<br>Web semántica<br>Datos enlazados<br>Multilingüismo<br>Modelos lógicos<br>Lógica descriptiva<br>Extensiones de la lógica clásica<br>Programación lógica<br>Integración de datos<br>Representación de contenido<br>Contextos de aplicación<br>Agentes y sistemas multiagentes<br>Lógica borrosa<br>Razonamiento de sentido común<br>Razonamiento cualitativo<br>Razonamiento probabilístico<br>Razonamiento basado en modelos<br>Razonamiento no monótono"
+        }
+      ],
+      "programme": {
+        "title": "DOCTORADO EN",
+        "subtitle": "INTELIGENCIA<br>ARTIFICIAL"
+      },
+      "intro": {
+        "title": "",
+        "subtitle": "El <strong>Programa de Doctorado en Inteligencia Artificial</strong> (PDIA) por la <mark style=\"color:#bdd4ff\" class=\"has-inline-color\"><strong><a href=\"http://www.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">Universidad Politécnica de Madrid (UPM)</a></strong>,</mark> forma parte de la oferta de Postgrado de la <strong><a href=\"https://www.fi.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">Escuela Técnica Superior de Ingenieros Informáticos de la UPM</a></strong>."
+      },
+      "places": {
+        "title": "15",
+        "subtitle": "PLAZAS<br> (por curso académico)"
+      },
+      "video": "/assets/video/Video-portada-Doctorado-bola-4.mp4",
+      "videoPoster": "/assets/images/portada-doctorado-movil-scaled.jpg"
+    },
+    "heroMobile": {
+      "programme": {
+        "title": "DOCTORADO EN",
+        "subtitle": "INTELIGENCIA<br>ARTIFICIAL"
+      },
+      "places": {
+        "title": "15",
+        "subtitle": "PLAZAS<br> (por curso académico)"
+      },
+      "intro": {
+        "title": "",
+        "subtitle": "El Programa de Doctorado en Inteligencia Artificial (PDIA) por la <mark style=\"background-color:rgba(0, 0, 0, 0);color:#bdd4ff\" class=\"has-inline-color\"><a href=\"http://www.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">Universidad Politécnica de Madrid (UPM)</a>,</mark> forma parte de la oferta de Postgrado de la <a href=\"https://www.fi.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">Escuela Técnica Superior de Ingenieros Informáticos de la UPM</a>."
+      }
+    },
+    "researchTabs": {
+      "heading": {
+        "title": "5 líneas de investigación"
+      },
+      "tabs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "lines": [
+        {
+          "title": "Aplicaciones de la Inteligencia Artificial",
+          "subtitle": "Informática médica<br>Bioinformática<br>Hidroinformática<br>Neurociencia<br>Web Semántica<br>Internet del Futuro<br>Nanoinformática"
+        },
+        {
+          "title": "Computación Natural",
+          "subtitle": "Computación Natural<br>Computación bio-inspirada<br>Computación Evolutiva<br>Biología Sintética<br>Ingeniería de sistemas biológicos<br>Biología de sistemas<br>Computación biomolecular<br>Computación con ADN<br>Programación celular"
+        },
+        {
+          "title": "Percepción, Manipulación y Comunicación",
+          "subtitle": "Interacción hombre-máquina<br>Robótica móvil, sistemas multi-robot y multi-componente<br>Control avanzado<br>Modelos cognitivos y bioinspirados<br>Procesamiento de imágenes y visión por computador<br>Recursos lingüísticos<br>Traducción automática<br>Recuperación y extracción de información<br>Ingeniería Lingüística<br>Sistemas pregunta-respuesta"
+        },
+        {
+          "title": "Inteligencia Computacional<br>Artificial",
+          "subtitle": "Aprendizaje automático<br>Redes Bayesianas<br>Teoría de la decisión<br>Optimización multiobjetivo<br>Selección de variables<br>Heurísticos de optimización<br>Algoritmos de estimación de distribuciones"
+        },
+        {
+          "title": "Representación del Conocimiento y Razonamiento",
+          "subtitle": "Ingeniería ontológica<br>Web semántica<br>Datos enlazados<br>Multilingüismo<br>Modelos lógicos<br>Lógica descriptiva<br>Extensiones de la lógica clásica<br>Programación lógica<br>Integración de datos<br>Representación de contenido. Contextos de aplicación.<br>Agentes y sistemas multiagentes<br>Lógica borrosa<br>Razonamiento de sentido común<br>Razonamiento cualitativo<br>Razonamiento probabilístico<br>Razonamiento basado en modelos<br>Razonamiento no monótono"
+        }
+      ]
+    },
+    "researchIntro": {
+      "heading": {
+        "title": "Cinco líneas de investigación",
+        "subtitle": "Avances Actuales y Direcciones Futuras de Investigación en Inteligencia Artificial"
+      },
+      "image": "/assets/images/Foto-grupo-de-investigacion-scaled.jpeg",
+      "imageAlt": "",
+      "text": {
+        "title": "",
+        "subtitle": "El periodo de formación inicial del programa de Doctorado en Inteligencia Artificial lo constituye el <a href=\"https://muia.dia.fi.upm.es/es/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Máster Universitario en Inteligencia Artificial</strong></a> <strong>por la Universidad Politécnica de Madrid</strong>. Organizado e impartido por el Departamento de Inteligencia Artificial, es una parte integral de la oferta de postgrado oficial de la ETS de Ingenieros Informáticos de la UPM."
+      }
+    },
+    "purpose": {
+      "heading": {
+        "title": "Finalidad del programa",
+        "subtitle": "Fomentar un ciclo de innovación continua: donde la investigación inspira innovación y la innovación impulsa nuevas investigaciones en inteligencia artificial"
+      },
+      "items": [
+        {
+          "title": "Finalidad general del Programa",
+          "text": "Dotar, a los estudiantes de disciplinas relacionadas con la Ciencia de la Computación y la Tecnología Informática, de un mayor conocimiento en técnicas de investigación, para que sean capaces de abordar y solucionar nuevos problemas de carácter científico y tecnológico mediante la investigación en Inteligencia Artificial."
+        },
+        {
+          "title": "Meta adicional del programa",
+          "text": "Esta finalidad general se completa con una meta adicional basada en el binomio innovar para investigar e investigar para innovar. La primera meta sugiere líneas de investigación innovadoras, que sean capaces de combinar el carácter especializado de la formación con la creatividad que subyace a trayectorias originales, activas y productivas de investigación. La segunda se dirige hacia la capacidad de ser creativo a la hora de abordar y solucionar problemas mediante la investigación."
+        }
+      ]
+    },
+    "strengths": {
+      "heading": {
+        "title": "Fortalezas del programa",
+        "subtitle": "Destacan las siguientes fortalezas"
+      },
+      "items": [
+        {
+          "title": "<strong>Sostenibilidad</strong>",
+          "description": "<strong>del programa</strong>. Fue el primer Programa de Doctorado creado en la Facultad de Informática de la Universidad Politécnica de Madrid. Sus antecedentes tienen un largo recorrido -alrededor de los cuarenta años-, a lo largo de los cuales ha recibido <em>Menciones de Calidad</em> por parte del Ministerio de Educación y Ciencia (cursos 1996/97, 2000/01, 2001/02, 2005/06, 2006/07, 2007/08) y <em>Mención hacia la Excelencia</em> por parte del Ministerio de Educación, Cultura y Deporte para los cursos académicos 2011-2012 a 2013-2014 (siendo ésta la última convocatoria abierta para este tipo de menciones)."
+        },
+        {
+          "title": "Fuerte C<strong>onexión con el tejido empresarial</strong>",
+          "description": "a través de proyectos con empresas (nacionales e internacionales) y también a través de las convocatorias del Plan Nacional. Eso permite a las empresas participar en la formación de los estudiantes, y a éstos ponerse en contacto con el mundo laboral a través de la innovación.<br><br>Esto permite también que se realicen tesis en colaboración con empresas (se fomenta los acuerdos para la obtención de la mención “Doctorado Industrial” al título de doctor)."
+        },
+        {
+          "title": "<strong>Financiación e internacionalización</strong>",
+          "description": "Los miembros de los equipos investigadores del Programa participan de modo sostenido en el ámbito competitivo de proyectos de I+D+i financiados por el Programa Marco de la Comunidad Europea. Esto permite:<br><br>– que los alumnos contacten con profesorado e investigadores de gran cualificación investigadora, de otras instituciones internacionales consolidadas en su área,<br><br>– tener recursos para la formación, movilidad e internacionalización (se fomenta las estancias para la obtención de la mención “Doctorado Internacional” al título de doctor)"
+        },
+        {
+          "title": "Personal Académico",
+          "description": "<strong>con una cualificación potente y actualizada</strong>, tal y como queda de relieve por el promedio de tramos de investigación reconocidos (3,63 sexenios de investigación, entre los investigadores propios que por su categoría profesional pueden ser evaluados), lo que supone una amplia, sostenida y actualizada experiencia en términos de investigación."
+        },
+        {
+          "title": "La <strong>inserción laboral</strong>",
+          "description": "es también una fortaleza del programa. La demanda social de formación en Inteligencia Artificial hace que los egresados de la titulación encuentren trabajo cualificado en poco tiempo."
+        },
+        {
+          "title": "<strong>Apertura</strong>",
+          "description": "El programa está abierto a que cualquier estudiante de cualquier nacionalidad -y procedente de cualquier universidad- con inquietudes en el área de Inteligencia Artificial pueda realizar la Tesis en él dirigido por un Doctor del equipo investigador. Se fomenta también la codirección por parte de investigadores externos que satisfagan los criterios generales del Modelo de Doctorado de la UPM y los criterios específicos del Programa relativos a la acreditación de su experiencia investigadora."
+        },
+        {
+          "title": "<strong>La calidad de las tesis</strong>",
+          "description": "<strong>y de sus publicaciones derivadas</strong>. Consideramos como indicio de calidad necesario para la defensa de una tesis doctoral, tener publicaciones en revistas indexadas en el catálogo Journal Citation Reports (JCR) (o equivalentes en el caso de congresos científicos), con lo que queda garantizada la calidad al haber sido evaluados los resultados de la tesis en un proceso externo por pares."
+        }
+      ]
+    },
+    "history": {
+      "heading": {
+        "title": "Historia del programa",
+        "subtitle": "Continuidad y calidad a través del tiempo: reflejando la sólida historia del Doctorado en Inteligencia Artificial con prestigiosas menciones de excelencia"
+      },
+      "body": "<p>El Programa de Doctorado en Inteligencia Artificial es una adaptación a lo dispuesto en el Real Decreto 99/2011, del programa de doctorado en inteligencia artificial anterior vinculado a sucesivos reales decretos desde la creación de la Facultad de Informática de la UPM, denominación anterior de la Escuela Técnica Superior de Ingenieros informáticos. </p>\n<p>A lo largo de los años, los distintos programas de doctorado han obtenido en varias ocasiones Mención hacia la Excelencia, por parte del Ministerio de Educación, Cultura y Deporte para los cursos académicos 2011/12, 2012/13 y 2013/14, y Mención de Calidad por parte del Ministerio de Educación y Ciencia, en los cursos académicos 1996/97, 2000/01, 2001/02, 2005/06, 2006/07, 2007/08.</p>"
+    }
+  }
+}

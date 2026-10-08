@@ -1,0 +1,25 @@
+{
+  "path": "/comision_academica/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/comision_academica/",
+  "wordpressId": 58,
+  "meta": {
+    "title": "Comisión Académica del Programa - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "published": "2017-07-24T05:58:03+00:00",
+    "modified": "2024-05-10T16:39:00+00:00",
+    "breadcrumb": "Comisión Académica del Programa"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": ""
+      },
+      "title": "Comisión académica y calidad",
+      "subtitle": ""
+    },
+    "main": {
+      "body": "<h2 class=\"wp-block-heading has-ast-global-color-3-color has-text-color has-link-color wp-elements-de7bac56b37cd77cfaf8fb5f03ecb5bb\">Comisión académica</h2>\n<p>La composición y funciones de la Comisión Académica del Programa de Doctorado han quedado establecidas en los artículos 4 y 5 del <a href=\"https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Doctorado%20y%20Postgrado/Negociados%20de%20Doctorado%20y%20Postgrado/Impresos/Modelo_Doctorado_RD_99_2011_UPM.pdf\" target=\"_blank\" rel=\"noreferrer noopener\"><strong><em>Modelo de Doctorado de la Universidad Politécnica de Madrid</em></strong> </a>.</p>\n<p>De acuerdo con ello, la Comisión Académica del Programa de Doctorado en Inteligencia Artificial (CAPDIA) está presidida por el Coordinador de programa y compuesta por los profesores de la UPM que participan en el mismo.</p>\n<p>En la actualidad, <strong>la composición de la CAPDIA se puede ver en este <a href=\"/wp-content/uploads/sites/8/2023/12/miembros-de-la-CAPDIA.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">fichero</a></strong>.</p>\n<h2 class=\"wp-block-heading has-ast-global-color-3-color has-text-color has-link-color wp-elements-d065b68c4aba20e07d88472685521297\">Sistema de calidad</h2>\n<p>El Sistema de Aseguramiento Interno de Calidad (SAIC) de la ETSII se diseña según directrices del programa AUDIT y con la colaboración del Vicerrectorado de Calidad y Eficiencia de la UPM.</p>\n<ul class=\"wp-block-list\" style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0\">\n<li><strong><a href=\"https://www.upm.es/UPM/Calidad\" target=\"_blank\" rel=\"noreferrer noopener\">Calidad en la UPM</a></strong></li>\n<li><a href=\"https://www.fi.upm.es/?id=politicacalidad\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Sistema de Aseguramiento Interno de Calidad</strong> (ETSII)</a></li>\n<li><a href=\"https://www.fi.upm.es/?pagina=1695\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Comisión de calidad </strong>(ETSII)</a></li>\n<li><a href=\"https://www.fi.upm.es/?pagina=1429\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Unidad Técnica de Calidad </strong>(ETSII)</a></li>\n<li><a href=\"http://www.fi.upm.es/?pagina=441\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Subdirector de Calidad y Acreditaciones </strong>(ETSII)</a></li>\n</ul>"
+    }
+  }
+}

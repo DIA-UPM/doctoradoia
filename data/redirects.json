@@ -1,0 +1,6 @@
+{
+  "description": "Redirects that existed on the original site. The build writes an HTML fallback page for each one (meta refresh, keeps ?s= searches) and the matching rules in dist/.htaccess (Apache); for nginx see README, Deployment.",
+  "redirects": [
+    { "from": "/language/en/", "to": "/language/en/overview/", "status": 301, "note": "Polylang language root on the original site" }
+  ]
+}

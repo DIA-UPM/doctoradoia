@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "training-activities.schema.json",
+  "title": "Training activities",
+  "description": "Training activities shown as numbered tabs on the training page: data/<lang>/training-activities.json",
+  "type": "object",
+  "required": ["activities"],
+  "properties": {
+    "description": { "type": "string" },
+    "activities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["slug", "title", "tableId", "details"],
+        "additionalProperties": false,
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "tableId": { "type": "integer", "description": "Original TablePress table id (HTML id tablepress-N). Use a new unique number for new activities." },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "values"],
+              "additionalProperties": false,
+              "properties": {
+                "label": { "type": "string", "description": "Left column, e.g. Tipo, Duracion." },
+                "values": { "type": "array", "minItems": 1, "items": { "type": "string" }, "description": "One table row per value (HTML allowed)." }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

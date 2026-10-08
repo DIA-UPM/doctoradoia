@@ -1,0 +1,149 @@
+{
+  "description": "Research lines/groups (Research page). Professors are referenced by their id in data/people.json.",
+  "lines": [
+    {
+      "slug": "applications-of-artificial-intelligence",
+      "number": 1,
+      "tabTitle": "Group 1 – Line 1:<br>Applications of Artificial Intelligence",
+      "description": "<p><strong>Description</strong>: This line of research corresponds to the contents related to the use of artificial intelligence techniques in fields in which discipline techniques are especially appropriate to solve problems related to these topics, such as handling uncertainty, decision making, collecting and discovering knowledge, from structured and non-structured data sources, diagnosing and solving problems or integrating heterogeneous information at different levels. Among others, multidisciplinary application areas, such as bioinformatics or hydroinformatics, in which artificial intelligence has an important role, are included. These areas show the growing interest in integrating professional disciplines with data technologies and artificial intelligence to produce research findings. Research areas about the internet (semantic web, internet of the future) as well as contents of this line that coincide with topics from different areas identified in the Framework Programme for the European Commission are also included. Specifically from the area of this line, the guarantors have developed numerous national and international projects with many applications and with the past and present training of a high number of doctoral students.</p>",
+      "topicsHeading": "<p><strong>Research topics:</strong></p>",
+      "topics": [
+        "Medical Informatics.",
+        "Bioinformatics.",
+        "Hydroinformatics.",
+        "Neuroscience.",
+        "Semantic Web.",
+        "Internet of the Future.",
+        "Nanocomputing."
+      ],
+      "professorsHeading": "<p><strong>Internal endorsers</strong> (doctors):</p>",
+      "professors": [
+        "garcia-cuesta-esteban",
+        "garcia-remesal-miguel",
+        "hernandez-diego-josefa-zuleide",
+        "maojo-garcia-victor-manuel",
+        "molina-gonzalez-martin",
+        "perez-del-rey-david",
+        "serrano-fernandez-emilio"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "natural-computing",
+      "number": 2,
+      "tabTitle": "Group 2 – Line 2: Natural Computing",
+      "description": "<p><strong>Description</strong>: The main aim of this line is the training of doctoral students in the research areas related to Natural Computing. This area includes two complementary viewpoints: (1) “nature as inspiration” that is in charge of studying computational models and techniques inspired in nature to solve complex computational problems (for example, evolutionary computation, cellular automata, artificial neural networks or membrane computing, among others) and (2) “nature as programming technology” that focuses on programming and artificial biological systems engineering (a new area called synthetic biology), biomolecular computing, DNA computing and cellular programming. This is an emerging interdisciplinary area in which researchers coming from natural sciences (biology, chemistry and physics) as well as from engineering and computing come together.</p>",
+      "topicsHeading": "<p><strong>Research topics:</strong></p>",
+      "topics": [
+        "Natural Computing",
+        "Bio-inspired Computing",
+        "Evolutionary Computation",
+        "Synthetic Biology",
+        "Biological Systems Engineering",
+        "Biomolecular Computing",
+        "Systems Biology",
+        "DNA Computing",
+        "Cellular Programming"
+      ],
+      "professorsHeading": "<p><strong>Internal endorsers</strong> (doctors):</p>",
+      "professors": [
+        "manrique-gamo-daniel",
+        "rodriguez-paton-aradas-alfonso"
+      ],
+      "contactLabel": "contact"
+    },
+    {
+      "slug": "perception-manipulation-and-communication",
+      "number": 3,
+      "tabTitle": "Group 3 – Line 3:<strong><br>Perception, Manipulation and Communication</strong>",
+      "description": "<p><strong>Description</strong>: In this line, doctors specialised in the field of interaction, that being the interaction among the machines themselves and with the environment, will be trained.<br>The aim of this area is building systems that can conduct perceptive, communicative, handling and navigation functions with a high level of autonomy. Problems related to visual perception and environment modelling, creation and maintenance of linguistic resources, information retrieval, machine translation as well as control and autonomic navigation systems and human- machine interaction will be dealt with.<br>It is based on methods and techniques coming from robotics, computer vision and linguistic engineering as well as on those developed within other lines of the programme, such as machine learning, optimisation, knowledge representation and reasoning.</p>",
+      "topicsHeading": "<p><strong><strong>Research topics:</strong></strong></p>",
+      "topics": [
+        "Human-machine Interaction.",
+        "Mobile Robotics, Multi-robot And Multi-component Systems. Advanced Control.",
+        "Cognitive And Bio-inspired Models.",
+        "Digital Image Processing And Computer Vision.",
+        "Language Resources.",
+        "Machine Translation.",
+        "Information Retrieval And Extraction.",
+        "Language Engineering.",
+        "Question-answering systems"
+      ],
+      "professorsHeading": "<p><strong><strong>Internal endorsers</strong></strong> (doctors):</p>",
+      "professors": [
+        "baumela-molina-luis",
+        "de-lope-asiain-javier",
+        "valle-fernandez-roberto"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "computational-intelligence",
+      "number": 4,
+      "tabTitle": "Group 4 – Line 4:<br>Computational Intelligence",
+      "description": "<p><strong>Description</strong>: The main area of research is modelling, with research interests in topics such as the so-called “data streams”, the multidimensional supervised classification, the cluttering in high-dimensional spaces, the techniques of feature selection, using methods coming from the Bayesian networks, the regularisation and the classification through regression. In heuristic optimisation, multiobjective problems with special interest in the so-called estimation of distribution algorithms, a type of evolutionary computation that does not need defining cross and mutation operators with which groups of individuals evolve, are researched. Neuroscience is the field of application. Problems such as the classification of neurons through their morphologic characteristics, the clustering of spines, or the spatial distribution of synapses, together with applications neurodegenerative diseases, such as Alzheimer’s, Parkinson’s or epilepsy, are dealt with.<br><br>The contents of these lines of research combine different topics from different areas identified in the Framework Programme for the European Commission, especially in the area of Information and Communication Technologies (ICT). In all the topics related to this line of research, the guarantors have developed numerous national and international projects with many publications and with the past and present training of a high number of doctoral students.</p>",
+      "topicsHeading": "<p><strong><strong><strong>Research topics</strong></strong>:</strong></p>",
+      "topics": [
+        "Machine Learning",
+        "Bayesian Networks",
+        "Decision Theory",
+        "Multiobjective Optimization",
+        "Feature selection",
+        "Heuristic Optimization Methods",
+        "Estimation Of Distribution Algorithms"
+      ],
+      "professorsHeading": "<p><strong><strong><strong>Internal endorsers</strong></strong></strong> (doctors):</p>",
+      "professors": [
+        "bajo-perez-javier",
+        "bielza-lozoya-maria-concepcion",
+        "gonzalez-pachon-jacinto",
+        "jimenez-martin-antonio",
+        "larranaga-mugica-pedro-maria",
+        "mateos-caballero-alfonso",
+        "melgar-garcia-laura",
+        "mihaljevic-bojan"
+      ],
+      "contactLabel": "contacto"
+    },
+    {
+      "slug": "knowledge-representation-and-reasoning",
+      "number": 5,
+      "tabTitle": "Group 5 – Line 5:<br>Knowledge Representation And Reasoning",
+      "description": "<p><strong>Description</strong>: The main aims of this line of research are the training of doctoral students in methodologies, models, methods and techniques related to knowledge and general data as well as specific domains representation and inference methods to simulate human reasoning. About the topic of knowledge representation, it is necessary to mention ontologies, data representation through the linked data paradigm, logic models and description logics. Regarding reasoning, agent topics, logic programming and model-based reasoning are noteworthy. From this line of research, relations to other lines of the programme appear in order to produce the most used research findings (for instance, with the line of Applications of Artificial Intelligence)</p>",
+      "topicsHeading": "<p><strong><strong><strong><strong>Research topics</strong></strong></strong>:</strong></p>",
+      "topics": [
+        "Ontology Engineering",
+        "Semantic Web",
+        "Linked Data",
+        "Multilingualism.",
+        "Logic Models",
+        "Description Logic",
+        "Extensions Of Classical Logic",
+        "Logic Programming",
+        "Data Integration",
+        "Content Repressentativeness",
+        "Application Contexts",
+        "Fuzzy Logic",
+        "Agents and multiagent systems",
+        "Common Sense Reasoning",
+        "Qualitative Reasoning",
+        "Probabilistic Reasoning",
+        "Model-Based Reasoning",
+        "Non-monotonic Reasoning"
+      ],
+      "professorsHeading": "<p><strong><strong><strong>Internal endorsers</strong></strong></strong> (doctors):</p>",
+      "professors": [
+        "corcho-garcia-oscar",
+        "garcia-castro-raul",
+        "garijo-verdejo-daniel",
+        "gomez-perez-asuncion-de-maria",
+        "hermenegildo-salinas-manuel-de",
+        "poveda-villalon-maria",
+        "rico-almodovar-mariano",
+        "rodriguez-doncel-victor",
+        "suarez-de-figueroa-baonza-maria-del-carmen"
+      ],
+      "contactLabel": "contacto"
+    }
+  ]
+}

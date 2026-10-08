@@ -1,0 +1,176 @@
+{
+  "path": "/language/en/overview/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/overview/",
+  "wordpressId": 68,
+  "isHome": true,
+  "meta": {
+    "title": "Overview - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "website",
+    "ogImage": {
+      "src": "/assets/images/Foto-grupo-de-investigacion-scaled.jpeg"
+    },
+    "published": "2017-07-24T05:44:22+00:00",
+    "modified": "2024-02-14T22:15:30+00:00",
+    "breadcrumb": "Portada"
+  },
+  "content": {
+    "hero": {
+      "researchLines": [
+        {
+          "title": "1. <strong>Applications of Artificial Intelligence</strong>",
+          "subtitle": "Medical Informatics<br>Bioinformatics<br>Hydroinformatics<br>Neuroscience<br>Semantic Web.<br>Internet of the Future<br>Nanocomputing"
+        },
+        {
+          "title": "2. Natural Computing",
+          "subtitle": "Natural Computing<br>Bio-inspired Computing<br>Evolutionary Computation<br>Synthetic Biology<br>Biological Systems Engineering<br>Systems Biology<br>Biomolecular Computing<br>DNA Computing<br>Cellular Programming"
+        },
+        {
+          "title": "3. <strong>Perception, Manipulation and Communication</strong>",
+          "subtitle": "Human-machine Interaction<br>Mobile Robotics, Multi-robot And Multi-component Systems<br>Advanced Control<br>Cognitive And Bio-inspired Models<br>Digital Image Processing <br>And Computer Vision<br>Language Resources<br>Machine Translation<br>Information Retrieval <br>And Extraction<br>Language Engineering<br>Question-answering systems"
+        },
+        {
+          "title": "4. <strong>Computational Intelligence</strong>",
+          "subtitle": "Machine Learning<br>Bayesian Networks<br>Decision Theory<br>Multiobjective Optimization<br>Feature selection<br>Heuristic Optimization Methods<br>Estimation Of Distribution Algorithms"
+        },
+        {
+          "title": "5. <br>Knowledge Representation And Reasoning",
+          "subtitle": "Ontology Engineering<br>Semantic Web<br>Linked Data<br>Multilingualism<br>Logic Models<br>Description Logic<br>Extensions Of Classical Logic<br>Logic Programming<br>Data Integration<br>Content Repressentativeness Application Contexts<br>Agents and multiagent systems<br>Fuzzy Logic<br>Common Sense Reasoning<br>Qualitative Reasoning<br>Probabilistic Reasoning<br>Model-based Reasoning<br>Non-monotonic Reasoning"
+        }
+      ],
+      "programme": {
+        "title": "PhD PROGRAMME IN",
+        "subtitle": "ARTIFICIAL<br>INTELLIGENCE"
+      },
+      "intro": {
+        "title": "",
+        "subtitle": "The PhD Programme in Artificial Intelligence (PDIA) of the <a href=\"https://www.upm.es/\" data-type=\"link\" data-id=\"https://www.upm.es/\">Universidad Politécnica de Madrid (UPM)</a> is part of the Postgraduate offer of the <a href=\"https://www.fi.upm.es/\" data-type=\"link\" data-id=\"https://www.fi.upm.es/\">Escuela Técnica Superior de Ingenieros Informáticos of the UPM.</a>"
+      },
+      "places": {
+        "title": "15",
+        "subtitle": "PLAZAS<br> (por curso académico)"
+      },
+      "video": "/assets/video/Video-portada-Doctorado-bola-4.mp4",
+      "videoPoster": ""
+    },
+    "heroMobile": {
+      "programme": {
+        "title": "PhD PROGRAMME IN",
+        "subtitle": "ARTIFICIAL<br>INTELLIGENCE"
+      },
+      "places": {
+        "title": "15",
+        "subtitle": "PLACES<br> (by academic year)"
+      },
+      "intro": {
+        "title": "",
+        "subtitle": "The PhD Programme in Artificial Intelligence (PDIA) of the <a href=\"https://www.upm.es/\" data-type=\"link\" data-id=\"https://www.upm.es/\">Universidad Politécnica de Madrid (UPM)</a> is part of the Postgraduate offer of the <a href=\"https://www.fi.upm.es/\" data-type=\"link\" data-id=\"https://www.fi.upm.es/\">Escuela Técnica Superior de Ingenieros Informáticos of the UPM.</a>"
+      }
+    },
+    "researchTabs": {
+      "heading": {
+        "title": "5 lines of research"
+      },
+      "tabs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "lines": [
+        {
+          "title": "Applications of Artificial Intelligence",
+          "subtitle": "Medical Informatics<br>Bioinformatics<br>Hydroinformatics<br>Neuroscience<br>Semantic Web.<br>Internet of the Future<br>Nanocomputing"
+        },
+        {
+          "title": "<strong>Natural Computing</strong>",
+          "subtitle": "Natural Computing<br>Bio-inspired Computing<br>Evolutionary Computation<br>Synthetic Biology<br>Biological Systems Engineering<br>Systems Biology<br>Biomolecular Computing<br>DNA Computing<br>Cellular Programming"
+        },
+        {
+          "title": "<strong>Perception, Manipulation y Communication</strong>",
+          "subtitle": "Human-machine Interaction<br>Mobile Robotics, Multi-robot And Multi-component Systems<br>Advanced Control<br>Cognitive And Bio-inspired Models<br>Digital Image Processing And Computer Vision<br>Language Resources<br>Machine Translation<br>Information Retrieval And Extraction<br>Language Engineering<br>Question-answering system"
+        },
+        {
+          "title": "<strong>Computational Intelligence</strong>",
+          "subtitle": "Machine Learning <br>Bayesian Networks <br>Decision Theory <br>Multiobjective Optimization <br>Feature selection<br> Heuristic Optimization Methods <br>Estimation Of Distribution Algorithms"
+        },
+        {
+          "title": "Knowledge Representation And Reasoning",
+          "subtitle": "Ontology Engineering<br>Semantic Web<br>Linked Data<br>Multilingualism<br>Logic Models<br>Description Logic<br>Extensions Of Classical Logic<br>Logic Programming<br>Data Integration<br>Content Repressentativeness. Application Contexts<br>Agents and multiagent systems<br>Fuzzy Logic<br>Common Sense Reasoning<br>Qualitative Reasoning<br>Probabilistic Reasoning<br>Model-based Reasoning<br>Non-monotonic Reasoning"
+        }
+      ]
+    },
+    "researchIntro": {
+      "heading": {
+        "title": "Five lines of research",
+        "subtitle": "Current advances and future directions in artificial intelligence research"
+      },
+      "image": "/assets/images/Foto-grupo-de-investigacion-scaled.jpeg",
+      "imageAlt": "",
+      "text": {
+        "title": "",
+        "subtitle": "The initial training period of the Phd Program in Artificial Intelligence is constituted by the <a href=\"https://muia.dia.fi.upm.es/es/\" target=\"_blank\" rel=\"noreferrer noopener\">University Master’s Degree in Artificial Intelligence</a> by the Universidad Politécnica de Madrid. Organized and taught by the Department of Artificial Intelligence, it is an integral part of the official postgraduate offerings of the School of Computer Engineers of the UPM."
+      }
+    },
+    "purpose": {
+      "heading": {
+        "title": "Aim of the programme",
+        "subtitle": "Promoting a cycle of continuous innovation: where research inspires innovation and innovation drives new AI research"
+      },
+      "items": [
+        {
+          "title": "As its main aim of the programme",
+          "text": "Intends to bestow a better knowledge in research techniques onto students from fields related to Computing Science and Computer Technology in order for them to be able to approach and solve new scientific and technological problems through research in Artificial Intelligence."
+        },
+        {
+          "title": "Additional aim of the programa",
+          "text": "This general objective can be complemented with an additional goal that is essential for the contents and purpose of this PhD programme, based on the pairing of innovating research and researching innovation. The first goal aims at innovative lines of research that combine the specialised nature of this academic training and the creativity behind original, active and productive researching careers. The second goal leads to the ability to be creative when facing and solving problems through research."
+        }
+      ]
+    },
+    "strengths": {
+      "heading": {
+        "title": "Programme strengths",
+        "subtitle": "Its strengths include"
+      },
+      "items": [
+        {
+          "title": "<strong><strong>Sustainability</strong></strong>",
+          "description": "<strong>of the programme.</strong> It was the first Doctoral Programme created in the Faculty of Computer Science at the Polytechnic University of Madrid. It has a long history -around forty years-, during which time it has received Quality Mentions from the Ministry of Education and Science (academic years 1996/97, 2000/01, 2001/02, 2005/06, 2006/07, 2007/08) and Mention of Excellence from the Ministry of Education, Culture and Sport for the academic years 2011-2012 to 2013-2014 (this being the last open call for this type of mention)."
+        },
+        {
+          "title": "Strong connection to the business world",
+          "description": "through projects with companies (national and international) and also through the calls of the National Plan. This allows companies to participate in the training of students, and students to come into contact with the world of work through innovation.<br>This also allows theses to be carried out in collaboration with companies (agreements are encouraged to obtain the mention “Industrial Doctorate” on the doctoral degree)."
+        },
+        {
+          "title": "<strong>Funding and internationalisation</strong>",
+          "description": "Members of the Programme’s research teams participate on a sustained basis in the competitive environment of R&amp;D&amp;I projects funded by the European Community Framework Programme. This allows:<br><br>– students to come into contact with highly-qualified professors and researchers from other consolidated international institutions in their field,<br><br>– to have resources for training, mobility and internationalisation (stays are encouraged in order to obtain the mention “International Doctorate” on the doctoral degree)."
+        },
+        {
+          "title": "Academic Staff",
+          "description": "with a strong and up-to-date qualification, as can be seen from the average number of recognised research periods (3.63 sexenios of research, among the own researchers who, due to their professional category, can be evaluated), which means a wide, sustained and up-to-date experience in terms of research."
+        },
+        {
+          "title": "Job placement",
+          "description": "is also a strength of the programme. The social demand for training in Artificial Intelligence means that graduates of the programme will find qualified work in a short time."
+        },
+        {
+          "title": "<strong>Opening</strong>",
+          "description": "The programme is open to any student of any nationality – and from any university – with interests in the area of Artificial Intelligence to carry out their thesis under the supervision of a PhD member of the research team. Co-direction by external researchers who meet the general criteria of the UPM Doctoral Model and the specific criteria of the Programme regarding the accreditation of their research experience are also encouraged."
+        },
+        {
+          "title": "<strong><strong>The quality of the thesis</strong></strong>",
+          "description": "and its derived publications. We consider it a necessary indication of quality for the defence of a doctoral thesis to have publications in journals indexed in the Journal Citation Reports (JCR) catalogue (or equivalent in the case of scientific congresses), which guarantees the quality of the thesis results having been evaluated in an external peer review process."
+        }
+      ]
+    },
+    "history": {
+      "heading": {
+        "title": "Programme history",
+        "subtitle": "Continuity and quality over time: reflecting the solid history of the PhD in Artificial Intelligence with prestigious mentions of excellence."
+      },
+      "body": "<p>The phD programe in Artificial Intelligence is <strong>adapted from what is decreeded in the </strong><a href=\"https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541\" target=\"_blank\" rel=\"noreferrer noopener\">Royal Decree 99/2011</a><strong> </strong>, of previous PhD programmes in artificial intelligence linked to successive royal decrees since the creation of the Faculty of Computer Science at the UPM, the previous name of the School of Computer Engineering.</p>\n<p>Throughout the years, the different doctoral programmes have obtained on several occasions Mention of Excellence from the Ministry of Education, Culture and Sport for the academic years 2011/12, 2012/13 and 2013/14, and Mention of Quality from the Ministry of Education and Science in the academic years 1996/97, 2000/01, 2001/02, 2005/06, 2006/07, 2007/08.</p>"
+    }
+  }
+}

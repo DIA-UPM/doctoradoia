@@ -1,0 +1,85 @@
+{
+  "path": "/language/en/aims-competences-abilities-and-skills/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/language/en/aims-competences-abilities-and-skills/",
+  "wordpressId": 70,
+  "meta": {
+    "title": "Aims, Competences, Abilities and Skills - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "ogImage": {
+      "src": "/assets/images/joven-investigador-con-brazo-robot.jpg"
+    },
+    "published": "2017-07-24T05:56:04+00:00",
+    "modified": "2024-05-13T15:29:30+00:00",
+    "breadcrumb": "Aims, Competences, Abilities and Skills"
+  },
+  "content": {
+    "hero": {
+      "eyebrow": {
+        "title": "Thinking of your success"
+      },
+      "title": "Aims and competences<br>of the PhD",
+      "subtitle": "See full description of the PhD in Artificial Intelligence",
+      "button": {
+        "url": "/wp-content/uploads/sites/8/2024/05/1_MemoVerificada.pdf",
+        "label": "View report"
+      }
+    },
+    "objectives": {
+      "heading": {
+        "title": "Aims, Competences, Abilities and Skills",
+        "subtitle": "The general objectives of the PhD Programme in Artificial Intelligence are as follows:"
+      },
+      "items": [
+        {
+          "image": "/assets/images/joven-investigador-con-brazo-robot.jpg",
+          "imageAlt": "",
+          "title": "Objective 1",
+          "description": "To train a group of people to face and solve scientific and technological problems in the field of Artificial Intelligence through independent and original research that expands the horizons of knowledge."
+        },
+        {
+          "image": "/assets/images/alumnos-sonrientes-con-robot.jpg",
+          "imageAlt": "",
+          "title": "Objective 2",
+          "description": "To train researchers to disseminate results of investigation through scientific publications in the field including a process of revision and a rate of recorded impact."
+        },
+        {
+          "image": "/assets/images/Alumno-asiatico-sonriendo.jpg",
+          "imageAlt": "",
+          "title": "Objective 3",
+          "description": "To offer society a group of people who are able to develop, assess and/or criticise new proposals of scientific research and/or technological development in the field of Artificial Intelligence."
+        },
+        {
+          "image": "/assets/images/alumnos-sonrientes-8.jpg",
+          "imageAlt": "",
+          "title": "Objective 4",
+          "description": "To train researchers to be able to apply for a job requiring a doctorate degree, such as postdoctoral researcher, university professor, researcher in high schools or enterprises and other jobs requiringthat entail creativity, leadership and management in the technological field."
+        },
+        {
+          "image": "/assets/images/alumno-obetivo5-doctorado-1.jpg",
+          "imageAlt": "",
+          "title": "Objective 5",
+          "description": "To train a group of people to become aware of scientific activities as a profession and of their ethical implications in society."
+        }
+      ]
+    },
+    "competences": {
+      "tabs": [
+        "Basic competences",
+        "Personal abilities and skills",
+        "Other competences"
+      ],
+      "panels": [
+        {
+          "body": "<p><strong>CB11. </strong>Systematic understanding of the field of study and good command of the research abilities and methods related to the aforementioned field.<br><br><strong>CB12. </strong>Ability to develop, to design or to create, to put into practice and to adopt a substantive process of investigation or creation.<br><br><strong>CB13.</strong> Ability to contribute to the expansion of the horizons of knowledge through an original investigation.<br><br><strong>CB14.</strong> Ability to conduct a critical as well as an evaluative and synthetical analysis of new and complex ideas.<br><br><strong>CB15. </strong>Ability to communicate with the academic and scientific community and with society in general about its areas of knowledge in the common methods and languages used in its international scientific community.<br><br><strong>CB16. </strong>Ability to promote scientific, technological, social, artistic and cultural advances both in academic and professional contexts within a society based on knowledge.</p>"
+        },
+        {
+          "body": "<p><strong>CA01. </strong>To cope with contexts in which there is little specific information.<br><br><strong>CA02.</strong> To find the key questions that have to be answered to solve a complex problem.<br><br><strong>CA03.</strong> To design, to create, to develop and to undertake original and innovative projects in their areas of knowledge.<br><br><strong>CA04. </strong>To work both as a group and independently in an international or multidisciplinary context.<br><br><strong>CA05. </strong>To integrate knowledge, to face complexity and to make judgements with limited information.<br><br><strong>CA06. </strong>To criticise or to defend solutions intellectually.</p>"
+        },
+        {
+          "body": "<p><strong>OC1. </strong>To understand funding mechanisms in research and technology transfer, as well as the existing legislation about data protection in the conducting of an investigation and about legal protection of results.</p>"
+        }
+      ]
+    }
+  }
+}

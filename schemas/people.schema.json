@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "people.schema.json",
+  "title": "People",
+  "description": "Professors of the programme (language independent): data/people.json. Referenced by id from data/<lang>/research-lines.json.",
+  "type": "object",
+  "required": ["people"],
+  "properties": {
+    "description": { "type": "string" },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "portalUrl"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Stable identifier (slug of the name)." },
+          "name": { "type": "string", "minLength": 1, "description": "As displayed: Surname(s), Name." },
+          "portalUrl": { "type": "string", "format": "uri", "description": "Profile in the UPM Portal Cientifico (link on the name)." },
+          "contactUrl": { "type": ["string", "null"], "format": "uri", "description": "Personal page at dia.fi.upm.es (contacto link)." },
+          "category": { "type": ["string", "null"], "description": "Academic category shown in brackets, e.g. CU or TU." }
+        }
+      }
+    }
+  }
+}

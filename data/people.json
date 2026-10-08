@@ -1,0 +1,208 @@
+{
+  "description": "Profesores investigadores del programa (doctores). Categoría: CU = Catedrático/a de Universidad, TU = Titular de Universidad, tal como aparece en la web original. Se referencian por \"id\" desde data/<lang>/research-lines.json.",
+  "people": [
+    {
+      "id": "bajo-perez-javier",
+      "name": "Bajo Pérez, Javier",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/306373",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/jbajo/",
+      "category": "CU"
+    },
+    {
+      "id": "baumela-molina-luis",
+      "name": "Baumela Molina, Luis",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/307555",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/lbaumela/",
+      "category": "CU"
+    },
+    {
+      "id": "bielza-lozoya-maria-concepcion",
+      "name": "Bielza Lozoya, María Concepción",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/303215",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/mcbielza/",
+      "category": "CU"
+    },
+    {
+      "id": "corcho-garcia-oscar",
+      "name": "Corcho García, Óscar",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/311414",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/ocorcho/",
+      "category": "CU"
+    },
+    {
+      "id": "de-lope-asiain-javier",
+      "name": "De Lope Asiain, Javier",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/305730",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/jdlope/",
+      "category": "TU"
+    },
+    {
+      "id": "garcia-castro-raul",
+      "name": "García Castro, Raúl",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/307297",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/rgarcia/",
+      "category": "CU"
+    },
+    {
+      "id": "garcia-cuesta-esteban",
+      "name": "García Cuesta, Esteban",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/333065",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/estebangarcia/",
+      "category": "TU"
+    },
+    {
+      "id": "garcia-remesal-miguel",
+      "name": "García Remesal, Miguel",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/308434",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/mgremesal/",
+      "category": "CU"
+    },
+    {
+      "id": "garijo-verdejo-daniel",
+      "name": "Garijo Verdejo, Daniel",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/332811",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/danielgarijo/",
+      "category": "PPL"
+    },
+    {
+      "id": "gomez-perez-asuncion-de-maria",
+      "name": "Gómez Pérez, Asunción De María",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/306054",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/asun/",
+      "category": "CU"
+    },
+    {
+      "id": "gonzalez-pachon-jacinto",
+      "name": "González Pachón, Jacinto",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/312274",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/jgpachon/",
+      "category": "TU"
+    },
+    {
+      "id": "hermenegildo-salinas-manuel-de",
+      "name": "Hermenegildo Salinas, Manuel De",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/304962",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/herme/",
+      "category": "CU"
+    },
+    {
+      "id": "hernandez-diego-josefa-zuleide",
+      "name": "Hernández Diego, Josefa Zuleide",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/308026",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/phernan/",
+      "category": "TU"
+    },
+    {
+      "id": "jimenez-martin-antonio",
+      "name": "Jiménez Martín, Antonio",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/305468",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/ajimenez/",
+      "category": "CU"
+    },
+    {
+      "id": "larranaga-mugica-pedro-maria",
+      "name": "Larrañaga Múgica, Pedro María",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/307001",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/pedro-larranaga/",
+      "category": "CU"
+    },
+    {
+      "id": "manrique-gamo-daniel",
+      "name": "Manrique Gamo, Daniel",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/306071",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/dmanrique/",
+      "category": "TU"
+    },
+    {
+      "id": "maojo-garcia-victor-manuel",
+      "name": "Maojo García, Víctor Manuel",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/306223",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/vmaojo/",
+      "category": "CU"
+    },
+    {
+      "id": "mateos-caballero-alfonso",
+      "name": "Mateos Caballero, Alfonso",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/307931",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/amateos/",
+      "category": "CU"
+    },
+    {
+      "id": "melgar-garcia-laura",
+      "name": "Melgar García, Laura",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/337391",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/melgar-garcia-laura/",
+      "category": "AD"
+    },
+    {
+      "id": "mihaljevic-bojan",
+      "name": "Mihaljevic, Bojan",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/313176",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/bmihaljevic/",
+      "category": "PPL"
+    },
+    {
+      "id": "molina-gonzalez-martin",
+      "name": "Molina González, Martín",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/304901",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/mmolina/",
+      "category": "CU"
+    },
+    {
+      "id": "perez-del-rey-david",
+      "name": "Pérez Del Rey, David",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/306524",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/dperezdelrey/",
+      "category": "TU"
+    },
+    {
+      "id": "poveda-villalon-maria",
+      "name": "Poveda Villalón, María",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/303799",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/mariapoveda/",
+      "category": "TU"
+    },
+    {
+      "id": "rico-almodovar-mariano",
+      "name": "Rico Almodóvar, Mariano",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/260726",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/marianorico/",
+      "category": "TU"
+    },
+    {
+      "id": "rodriguez-doncel-victor",
+      "name": "Rodríguez Doncel, Víctor",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/311934",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/victor_rodriguez/",
+      "category": "TU"
+    },
+    {
+      "id": "rodriguez-paton-aradas-alfonso",
+      "name": "Rodríguez-Patón Aradas, Alfonso",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/307796",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/arpaton/",
+      "category": "CU"
+    },
+    {
+      "id": "serrano-fernandez-emilio",
+      "name": "Serrano Fernández, Emilio",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/308673",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/emilioserra/",
+      "category": "CU"
+    },
+    {
+      "id": "suarez-de-figueroa-baonza-maria-del-carmen",
+      "name": "Suárez De Figueroa Baonza, María Del Carmen",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/311407",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/mcsuarez/",
+      "category": "TU"
+    },
+    {
+      "id": "valle-fernandez-roberto",
+      "name": "Valle Fernández, Roberto",
+      "portalUrl": "https://portalcientifico.upm.es/es/ipublic/researcher/308730",
+      "contactUrl": "https://dia.fi.upm.es/personaldia/rvalle/",
+      "category": "AD"
+    }
+  ]
+}

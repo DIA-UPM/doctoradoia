@@ -1,0 +1,54 @@
+{
+  "path": "/apoyo_y_orientacion/",
+  "sourceUrl": "https://doctoradoia.dia.fi.upm.es/apoyo_y_orientacion/",
+  "wordpressId": 35,
+  "meta": {
+    "title": "Sistemas de apoyo y orientación de doctorandos - Doctorado en Inteligencia Artificial",
+    "robots": "noindex, nofollow",
+    "ogType": "article",
+    "ogImage": {
+      "src": "/assets/images/grupo-de-alumnos-de-doctorado-1.jpg",
+      "width": 1024,
+      "height": 576,
+      "type": "image/jpeg"
+    },
+    "published": "2017-07-24T05:57:00+00:00",
+    "modified": "2026-10-06T08:16:22+00:00",
+    "breadcrumb": "Sistemas de apoyo y orientación de doctorandos"
+  },
+  "content": {
+    "hero": {
+      "title": "Cuenta con nosotros",
+      "subtitle": "Apoyo y orientación",
+      "intro": {
+        "body": "<p class=\"has-white-color has-text-color\">Se han desarrollado una serie de acciones dirigidas a ofrecer apoyo y orientación a los estudiantes de nuevo ingreso una vez matriculados</p>"
+      }
+    },
+    "sections": {
+      "tabs": [
+        "Jornada de bienvenida",
+        "Actuaciones específicas para estudiantes de otros países y estudiantes con necesidades educativas especiales",
+        "Becas y ayudas",
+        "Centro de lenguas",
+        "Orientación Laboral"
+      ],
+      "panels": [
+        {
+          "body": "<p>El objetivo de la jornada de bienvenida, que se realiza al comienzo de cada curso académico, es ofrecer una visión general de las actividades y servicios que presta de forma habitual la Universidad Politécnica de Madrid (UPM) y la Escuela Técnica Superior de Ingenieros Informáticos (ETSII) como medio para posibilitar la mejor adaptación e integración de los estudiantes en el nuevo entorno. Se ofrece una visión general de la evolución de los estudios de doctorado, de las líneas de investigación que se desarrollan en el mismo, y se ofrece información sobre servicios y recursos a disposición del alumnado.</p>\n<p><a href=\"/wp-content/uploads/sites/8/2026/10/FAQ_CAPDIA_es.pdf\">Preguntas frecuentes.</a></p>\n<figure class=\"wp-block-image size-full\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"576\" src=\"/assets/images/grupo-de-alumnos-de-doctorado-1.jpg\" alt=\"\" class=\"wp-image-1317\" srcset=\"/assets/images/grupo-de-alumnos-de-doctorado-1.jpg 1024w, /assets/images/grupo-de-alumnos-de-doctorado-1-300x169.jpg 300w, /assets/images/grupo-de-alumnos-de-doctorado-1-768x432.jpg 768w\" sizes=\"(max-width: 1024px) 100vw, 1024px\"></figure>"
+        },
+        {
+          "body": "<p><a href=\"http://www.fi.upm.es/?pagina=286#orgca4cdd4\" target=\"_blank\" rel=\"noreferrer noopener\">La <strong>Oficina de Relaciones Externas (OREX)</strong></a> de la ETSII recoge actuaciones específicas relacionadas con la información y soporte para alumnos internacionales: sistema de Información y orientación sobre trámites legales, documentación, etc.</p>\n<p>Asimismo, la Universidad dispone de una <strong><a href=\"https://www.upm.es/UPM/CompromisoSocial/UAD\" target=\"_blank\" rel=\"noreferrer noopener\">Unidad de Accesibilidad y Atención a la Discapacidad (uAd)</a></strong>. Esta unidad es la encargada de garantizar la igualdad de oportunidades, la accesibilidad universal y la no discriminación en el acceso, permanencia y progreso en el ámbito universitario de aquellos miembros de la Comunidad Universitaria que se encuentren en situación de diversidad funcional o necesidad especial de apoyo educativo, además de concienciar y sensibilizar a todos sus miembros sobre la educación sin barreras y diseño para todos.</p>\n<p>La Universidad ofrece también en su página web una sección de <strong><a href=\"https://www.upm.es/FuturosEstudiantes/AtencionAlumno\" target=\"_blank\" rel=\"noreferrer noopener\">atención al alumnado</a></strong>. En ella se puede encontrar una guía de información práctica de utilidad para alumnos extranjeros, así como información sobre alojamiento para estudiantes y seguros de asistencia.</p>"
+        },
+        {
+          "body": "<p>La Universidad pone a disposición del alumnado, en su página web, una <a href=\"https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>sección</strong></a> cuyo objetivo es facilitar al doctorando un lugar donde encontrar todas las ayudas nacionales, regionales, propias y externas para la realización del doctorado.</p>\n<p>En ella encontrará también disponible información sobre las convocatorias de movilidad para la realización de estancias, y la convocatoria anual de Acción Social UPM sobre ayudas al transporte.</p>"
+        },
+        {
+          "body": "<p><strong><a href=\"https://www.lenguas.upm.es/\" target=\"_blank\" rel=\"noreferrer noopener\">El Centro de Lenguas UPM</a></strong> viene desarrollando una oferta flexible de Cursos de Lenguas adaptada a las demandas concretas de la comunidad universitaria. A través del Centro de Lenguas, la UPM pone de manifiesto una vez más su espíritu internacional y su activa participación en proyectos de movilidad académica dentro y fuera de la Unión Europea. El programa va dirigido especialmente a estudiantes, y ofrece cursos de español y también de lenguas extranjeras.</p>"
+        },
+        {
+          "body": "<p><a href=\"http://www.fi.upm.es/?pagina=286\" target=\"_blank\" rel=\"noreferrer noopener\">La <strong>Oficina de Relaciones Externas (OREX)</strong></a> de la ETSII ofrece orientación y apoyo informativo a los alumnos que deseen incorporarse al mundo laboral.</p>"
+        }
+      ]
+    }
+  }
+}

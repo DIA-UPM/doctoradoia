@@ -1,0 +1,26 @@
+{#-
+  Schedule of the training activities (TablePress table) on the "Formación" page.
+  Data: page content "schedule" = { intro, tableId, columns[], rows[][] }.
+  On the original site TablePress initialised DataTables on this table only to make it
+  scroll horizontally on small screens (ordering, paging and search were disabled).
+  The same wrapper classes are produced here statically, so no JavaScript is needed.
+-#}
+{%- set s = page.content.schedule -%}
+{{ s.intro | safe }}
+<div id="tablepress-{{ s.tableId }}_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_scroll"><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;">
+<table id="tablepress-{{ s.tableId }}" class="tablepress tablepress-id-{{ s.tableId }} dataTable no-footer">
+<thead>
+<tr class="row-1">
+{% for col in s.columns %}<th class="column-{{ loop.index }} sorting_disabled">{{ col | safe }}</th>{% endfor %}
+</tr>
+</thead>
+<tbody class="row-hover">
+{% for row in s.rows -%}
+<tr class="row-{{ loop.index + 1 }}">
+{% for v in row %}<td class="column-{{ loop.index }}">{{ v | safe }}</td>{% endfor %}
+</tr>
+{% endfor -%}
+</tbody>
+</table>
+</div></div></div>
+{% if s.after %}{{ s.after | safe }}{% endif %}

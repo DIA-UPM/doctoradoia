@@ -1,0 +1,20 @@
+{
+  "description": "Textos de las páginas de sistema: página 404 y resultados de búsqueda (/?s=...). Copiados de la web original.",
+  "notFound": {
+    "title": "Página no encontrada - Doctorado en Inteligencia Artificial",
+    "heading": "Parece que esta página no existe.",
+    "text": "Parece que el enlace que apuntaba aquí no sirve. ¿Quieres probar con una búsqueda?"
+  },
+  "searchForm": {
+    "label": "Buscar por:",
+    "placeholder": "Search...",
+    "button": "Buscar",
+    "buttonLabel": "Enviar la búsqueda"
+  },
+  "searchResults": {
+    "title": "Has buscado {query} - Doctorado en Inteligencia Artificial",
+    "heading": "Resultados de búsqueda para:",
+    "readMore": "Leer más »",
+    "noResults": "Lo siento, pero nada coincide con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+  }
+}
